@@ -1,0 +1,9 @@
+---
+output: html_document
+---
+<!-- rmarkdown v1 -->
+<p>
+```{r, results='asis', echo=FALSE, warning=FALSE, out.width='100%'}
+#dog_vac_print_results(vacc_data, yr=2017)
+dog_vacc_map(vacc_data, yr=2017, ser_vills, PAs, regions)
+```
