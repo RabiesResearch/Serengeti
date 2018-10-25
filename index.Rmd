@@ -17,6 +17,6 @@ This page displays data from our long-term contact tracing project in <b>Serenge
 <center>
 
 <img src="img/glasgow_lab_group.png" style="display: inline-block; margin-left: auto; margin-right: auto; height:300px;"/>
-<img src="img/focus_group_discussion.png" style="display: inline-block; margin-left: auto; margin-right: auto; height:300px;"/>
+<img src="img/focus_group.png" style="display: inline-block; margin-left: auto; margin-right: auto; height:300px;"/>
 
 </center>
