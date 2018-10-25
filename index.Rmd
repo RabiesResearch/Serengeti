@@ -2,7 +2,7 @@
 title: ""
 ---
 <head>
-<link rel="shortcut icon" href="img/tab_logo.png" type="image/x-icon" />
+<link rel="icon" href="img/tab_logo.png" type="image/png" />
 </head>
 
 <br>
