@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/united.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2,h3",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Rabies Research in Serengeti District</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+    About
+     
+    <span class="caret"></span>
+  </a>
+  <ul class="dropdown-menu" role="menu">
+    <li>
+      <a href="Ser_overview.html">Project Information</a>
+    </li>
+    <li>
+      <a href="Ser_publications.html">Publications</a>
+    </li>
+  </ul>
+</li>
+<li>
+  <a href="Ser_Vac_report.html">Dog Vaccination Scheme</a>
+</li>
+<li>
+  <a href="Ser_Epi_report.html">Rabies Incidence</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="contact.html">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/rabidbites">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<ol class="breadcrumb" style="background-color:white;">
+<li class="breadcrumb-item">
+<a href="index.html">Home</a>
+</li>
+<li class="breadcrumb-item">
+<a href="Ser_overview.html">Project Information</a>
+</li>
+<li class="breadcrumb-item active">
+Publications
+</li>
+</ol>
+<h1>
+Publications
+</h1>
+<div id="publications-that-have-come-from-research-in-serengeti-district-are-listed-below" class="section level4">
+<h4>Publications that have come from research in Serengeti District are listed below:</h4>
+<p><br></p>
+</div>
+<div id="section" class="section level3">
+<h3>2017</h3>
+<p><a href="https://www.frontiersin.org/articles/10.3389/fvets.2017.00033/full">Sambo et al. (2017) Comparing methods of assessing dog rabies vaccination coverage in rural and urban communities in Tanzania, Front Vet Sci</a></p>
+<p><a href="https://www.frontiersin.org/articles/10.3389/fvets.2017.00021/full">Mpolya et al. (2017). Towards Elimination of Dog-Mediated Human Rabies: experiences from implementing a large-scale demonstration project in Southern Tanzania. Front Vet Sci</a></p>
+<p><br></p>
+</div>
+<div id="section-1" class="section level3">
+<h3>2016</h3>
+<p>Mtema et al. (2016). Mobile phones as surveillance tools: Implementing and evaluating a large-scale intersectoral surveillance system for rabies in Tanzania. PLoS Medicine 13(4): e1002002. <a href="doi:10.1371/journal.pmed.1002002" class="uri">doi:10.1371/journal.pmed.1002002</a></p>
+<p><br></p>
+</div>
+<div id="section-2" class="section level3">
+<h3>2015</h3>
+<p><a href="http://ve.oxfordjournals.org/content/1/1/vev011">Brunker et al. (2015) Elucidating the phylodynamics of endemic rabies virus in eastern Africa using whole genome sequencing. Virus Evolution</a></p>
+<p>Taylor et al. (2015). Difficulties in Estimating the Human Burden of Canine Rabies. Acta Tropica. (15) 30184-4. doi: 10.1016/j.actatropica.2015.12.007</p>
+<p>Ferguson et al. (2015). Heterogeneity in the spread and control of disease: consequences for the elimination of canine rabies. Scientific Reports 5, 18232; doi: 10.1038/srep18232</p>
+<p>The Global Alliance for Rabies Controlâ€™s Partners for Rabies Prevention* (2015). Estimating the Global Burden of Canine Rabies. PLoS Neglected Tropical Diseases 9(4): e0003709. <a href="doi:10.1371/journal.pntd.0003709" class="uri">doi:10.1371/journal.pntd.0003709</a> *lead author</p>
+<p>Klepac et al. (2015). Six challenges in the eradication of infectious diseases. Epidemics</p>
+<p>Viana et al. (2015). Dynamics of a morbillivirus at the domestic-wildlife interface: Canine Distemper Virus in domestic dogs and lions. PNAS 112(5): 1464-1469</p>
+<p><br></p>
+</div>
+<div id="section-3" class="section level3">
+<h3>2014</h3>
+<p><a href="http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003310">Sambo et al. (2014) Knowledge, Attitudes and Practices about rabies prevention and control: a community survey in Tanzania. PLoS NTDs</a></p>
+<p><a href="http://annals.org/article.aspx?articleid=1814425">Fitzpatrick et al. (2014) Cost-effectiveness of Canine Vaccination to Prevent Human Rabies in Rural Tanzania. Annals of Internal Medicine</a></p>
+<p>Lankester et al. (2014). Implementing Pasteurâ€™s vision for rabies elimination Science 345 (6204): 1562-1564 doi: 10.1126/science.1256306 access to pdf</p>
+<p>Cleaveland et al. (2014). Rabies control and elimination: a test case for One Health. Veterinary Record 175:188-193 <a href="doi:10.1136/vr.g4996" class="uri">doi:10.1136/vr.g4996</a></p>
+<p>Bardosh et al. (2014). Eliminating rabies in Tanzania? Local understandings and responses to mass dog vaccination in Kilombero and Ulanga districts. PLoS Neglected Tropical Diseases 8(6): e2935 doi: 10.1371/journal.pntd.0002935</p>
+<p>Morters et al. (2014). The demography of free-roaming dog populations and applications to disease and population control. Journal of Animal Ecology 51:1096-1106 doi: 10.1111/1365-2664.12279</p>
+<p>Mollentze et al. (2014). A Bayesian approach for inferring the dynamics of partially observed endemic infectious diseases from space-time-genetic data. Proceedings of the Royal Society, Series B 281: 20133251</p>
+<p>Cleaveland et al. (2014). The changing landscape of rabies epidemiology and control. Onderspoort Veterinary Journal 81(2): doi: 10.4102/ojvr.v81i2.731</p>
+<p>Byrom et al. (2014). Episodic outbreaks of small mammals influence predator community dynamics in an East African Savannah Ecosystem. Oikos doi: 10.1111/oik.00962</p>
+<p><br></p>
+</div>
+<div id="section-4" class="section level3">
+<h3>2013</h3>
+<p>Sambo et al. (2013). The burden of rabies in Tanzania and its impacts on local communities. PLoS Neglected Tropical Diseases 7(11): e2510. <a href="doi:10.1371/journal.pntd.0002510" class="uri">doi:10.1371/journal.pntd.0002510</a></p>
+<p>Vos et al. (2013). Bovine Rabies in Turkey: patterns of infection and implications for costs and control. Epidemiology and Infection 26:1-9</p>
+<p>Metcalf et al. (2013). Persistence in epidemic metapopulations: quantifying the rescue effects for measles, mumps, rubella and whooping cough. PLoS One 8(9): e74696. <a href="doi:10.1371/journal.pone.0074696" class="uri">doi:10.1371/journal.pone.0074696</a></p>
+<p>Townsend et al. (2013). Designing programs for eliminating canine rabies from islands: Bali, Indonesia as a case-study. PLoS Neglected Tropical Diseases 7(8): e2372</p>
+<p>Klepac et al. (2013). Towards the endgame and beyond: complexities and challenges for the elimination of infectious diseases. Phil. Trans. Roy. Soc. 368: 20120137</p>
+<p>Freuling et al. (2013). Elimination of fox rabies from Europe: determinants of success and lessons for the future. Phil. Trans. Roy. Soc. 368: 20120142 *equal contributions</p>
+<p>Putra et al. (2013). Response to a rabies epidemic, Bali, Indonesia, 2008-2011. Emerging Infectious Diseases 19(4): 649-651 <a href="http://dx.doi.org/10.3201/eid1904.120380" class="uri">http://dx.doi.org/10.3201/eid1904.120380</a></p>
+<p>Sinclair et al. (2013). Asynchronous food-web pathways could buffer the response of Serengeti Predators to El NiÃ±o Southern Oscillation. Ecology 94(5): 1123-1130</p>
+<p>Townsend et al. (2013). Surveillance guidelines for disease elimination: a case study of canine rabies. Comparative Immunology, Microbiology &amp; Infectious Diseases doi: 10.1016/j.cimid.2012.10.008</p>
+<p>Swiff, Hampson &amp; Anderson (2013). Potential economic benefits of eliminating canine rabies. Antiviral research 98(2): 352-356</p>
+<p><br></p>
+</div>
+<div id="section-5" class="section level3">
+<h3>2012</h3>
+<p><a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0001796">Fitzpatrick et al. (2012) Potential for rabies control through dog vaccination in wildlife-abundant communities of Tanzania. PLoS NTDs</a></p>
+<p><a href="https://wwwnc.cdc.gov/eid/article/18/4/11-1553">Marston et al. (2012) Ikoma Lyssavirus: Identification of a highly divergent novel lyssavirus in an African Civet. EID</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X11019876?via%3Dihub">Beyer et al. (2012) The implications of metapopulation dynamics on the design of rabies vaccination campaigns. Vaccine</a></p>
+<p>Hughes et al. (2012). Transmission of Equine Influenza Virus during an outbreak is characterized by frequent mixed infections and loose transmission bottlenecks. PLoS Pathogens 8(12): e1003081. <a href="doi:10.1371/journal.ppat.1003081" class="uri">doi:10.1371/journal.ppat.1003081</a></p>
+<p>Lembo et al. (2012). Neglected zoonoses: why should we care and what should we do? EJCAP 22(2): 13-22</p>
+<p>Morters et al. (2012). Evidence-based control of canine rabies: a critical review of population density reduction. Journal of Animal Ecology doi: 10.1111/j.1365-2656.2012.02033.x</p>
+<p>Brunker et al. (2012). Integrating the landscape epidemiology and genetics of RNA viruses: rabies in domestic dogs as a model. Parasitology 20: 1-15</p>
+<p>Halliday et al. (2012). Bringing together emerging and endemic zoonoses surveillance: shared challenges and a common solution. Phil. Trans. Roy. Soc. 367: 2872-2880</p>
+<p>Lembo, on behalf of the Partners for Rabies Preventionâ€¡ (2012). The Blueprint for Rabies Prevention and Control: A Novel Operational Toolkit for Rabies Elimination. PLoS Neglected Tropical Diseases 6(2): e1388. <a href="doi:10.1371/journal.pntd.0001388" class="uri">doi:10.1371/journal.pntd.0001388</a> â€¡38 co-authors.</p>
+<p><br></p>
+</div>
+<div id="section-6" class="section level3">
+<h3>2011</h3>
+<p><a href="http://rspb.royalsocietypublishing.org/content/278/1715/2182.long">Beyer et al. (2011) Metapopulation Dynamics of Rabies and the Efficacy of Vaccination. Proc Roy Soc B</a></p>
+<p>Hampson et al.. (2011). Predictability of anthrax infection in the Serengeti Ecosystem, Tanzania. Journal of Applied Ecology 48 (6): 1333-1344.</p>
+<p>Hampson, Cleaveland &amp; Briggs (2011). Evaluation of cost-effective strategies for rabies post-exposure vaccination in low-income countries. PLoS Neglected Tropical Diseases 5(3): e982. <a href="doi:10.1371/journal.pntd.0000982" class="uri">doi:10.1371/journal.pntd.0000982</a></p>
+<p>Lembo et al. (2011). Serologic surveillance of anthrax in the Serengeti Ecosystem, Tanzania, 1996-2009. Emerging Infectious Diseases 17(3): 387-394</p>
+<p><br></p>
+</div>
+<div id="and-earlier" class="section level3">
+<h3>2010 and earlier</h3>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X09013516?via%3Dihub">Shim et al. (2009) Evaluating the cost-effectiveness of rabies post-exposure prophylaxis: A case study in Tanzania. Vaccine</a></p>
+<p><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000053">Hampson et al. (2009) Transmission dynamics and prospects for the elimination of canine rabies. PLoS Biology</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X0801307">Kaare et al. (2009) Rabies Control in Rural Africa: Evaluation Strategies for Effective Domestic Dog Vaccination. Vaccine</a></p>
+<p><a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0000339">Hampson et al. (2008) Rabies exposures, post-exposure prophylaxis and deaths in a region of endemic canine rabies. PLoS NTDs</a></p>
+<p><a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2008.01468.x">Lembo, et al. (2008) Exploring reservoirs dynamics: a case study of rabies in the Serengeti ecosystem. Journal of Applied Ecology</a></p>
+<p><a href="https://veterinaryrecord.bmj.com/content/161/9/293">Cleaveland et al. (2007) Living with rabies in Africa. Vet Rec</a></p>
+<p>Durant et al. (2010). Does Size matter? An investigation of habitat selectivity across a carnivore assemblage in the Serengeti, Tanzania. Journal of Applied Ecology 79(5): 1012-1022.</p>
+<p>Lembo et al. (2010). The feasibility of canine rabies elimination in Africa: dispelling doubts with data. PLoS Neglected Tropical Diseases 4(2): e626. <a href="doi:10.1371/journal.pntd.0000626" class="uri">doi:10.1371/journal.pntd.0000626</a></p>
+<p>Hampson et al. (2007). Synchronous cycles of domestic dog rabies in sub-Saharan Africa and the impact of control efforts. PNAS 104(18): 7717-7722</p>
+<p>Metcalf, Hampson &amp; Koons (2007) What happens if density increases? Conservation implications of population influx into refuges. Animal Conservation: online publication 29 Aug 2007: doi: 10.1111/j.1469-1795.2007.00138.x</p>
+<p>Metcalf et al. (2007). Herpetofaunal assemblages on seven offshore islands of northwestern Madagascar. Tropical Zoology.</p>
+<p>Metcalf et al. (2007). The importance of north-west Madagascar for marine turtle conservation. Oryx 41(2): 232-237 *equal contributions</p>
+<p><br></p>
+</div>
+<div id="book-chapters" class="section level3">
+<h3>Book Chapters</h3>
+<p>Knapp et al. (2015). Human Health in the Greater Serengeti Ecosystem. Chapter in Serengeti IV (Ed. Sinclair, A. R. E.).</p>
+<p>Craft et al. (2015). Carnivore communities in the Greater Serengeti Ecosystem. In: Sinclair, A. R. E. &amp; Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.</p>
+<p>Hampson et al. (2015). Living in the Greater Serengeti ecosystem: human-wildlife conflict and coexistence. In: Sinclair, A. R. E. &amp; Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.</p>
+<p>Lembo et al. (2015). Infectious Diseases in the Serengeti: What We Know and How We Know It. In: Sinclair, A. R. E. &amp; Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.</p>
+<p>Byrom et al. (2015). Small Mammal Diversity and Population Dynamics in the Greater Serengeti Ecosystem. In: Sinclair, A. R. E. &amp; Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.</p>
+<p>Knobel et al. (2013). Dog rabies and its control. Chapter in Rabies: scientific basis of the disease and its management, 3rd Edition (Ed. Jackson, A. C.).</p>
+<p>Lembo et al. (2013). Zoonoses Prevention, Control and Elimination in dogs. Chapter in: Dogs, Zoonoses and Public Health (Eds. Macpherson, C. N. L., Meslin, A. R. E. and Wandeler, A. I.), 2nd Ed. CAB International, Wallingford, UK</p>
+<p>Cleaveland et al. (2012). Domestic animal health programs to protect wildlife. Chapter in Animal health and biodiversity: preparing for the future. Compendium of the OIE Global Conference on Wildlife, Paris, France, 23-25 February 2011 (Eds. Karesh, W., and Machalaba, C.). pp. 91-100</p>
+<p>Cleaveland et al. (2007). The Multiple Roles of Infectious Diseases in the Serengeti Ecosystem. Chapter in Serengeti III (Ed. Sinclair, A. R. E. &amp; Packer, C.).</p>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

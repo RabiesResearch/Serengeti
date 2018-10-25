@@ -1,1 +1,1 @@
-# Serengeti
+# Repository for the Serengeti Static Website, part of the Rabies Research Hub

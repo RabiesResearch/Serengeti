@@ -1,0 +1,179 @@
+---
+title: ""
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+---
+
+<ol class="breadcrumb" style="background-color:white;">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item"><a href="Ser_overview.html">Project Information</a></li>
+  <li class="breadcrumb-item active">Publications</li>
+</ol>
+
+<h1> Publications</h1>  
+
+#### Publications that have come from research in Serengeti District are listed below:  
+
+<br>
+
+### 2017  
+
+[Sambo et al. (2017) Comparing methods of assessing dog rabies vaccination coverage in rural and urban communities in Tanzania, Front Vet Sci](https://www.frontiersin.org/articles/10.3389/fvets.2017.00033/full)  
+  
+[Mpolya et al. (2017). Towards Elimination of Dog-Mediated Human Rabies: experiences from implementing a large-scale demonstration project in Southern Tanzania. Front Vet Sci](https://www.frontiersin.org/articles/10.3389/fvets.2017.00021/full)  
+
+<br> 
+
+### 2016  
+
+Mtema et al. (2016). Mobile phones as surveillance tools: Implementing and evaluating a large-scale intersectoral surveillance system for rabies in Tanzania. PLoS Medicine 13(4): e1002002. doi:10.1371/journal.pmed.1002002
+  
+<br>
+
+### 2015  
+
+[Brunker et al. (2015) Elucidating the phylodynamics of endemic rabies virus in eastern Africa using whole genome sequencing. Virus Evolution](http://ve.oxfordjournals.org/content/1/1/vev011)  
+  
+Taylor et al. (2015). Difficulties in Estimating the Human Burden of Canine Rabies. Acta Tropica.  (15) 30184-4. doi: 10.1016/j.actatropica.2015.12.007  
+  
+Ferguson et al. (2015). Heterogeneity in the spread and control of disease: consequences for the elimination of canine rabies. Scientific Reports 5, 18232; doi: 10.1038/srep18232  
+  
+The Global Alliance for Rabies Control’s Partners for Rabies Prevention* (2015). Estimating the Global Burden of Canine Rabies. PLoS Neglected Tropical Diseases 9(4): e0003709. doi:10.1371/journal.pntd.0003709 *lead author  
+  
+Klepac et al. (2015). Six challenges in the eradication of infectious diseases. Epidemics  
+  
+Viana et al. (2015). Dynamics of a morbillivirus at the domestic-wildlife interface: Canine Distemper Virus in domestic dogs and lions. PNAS 112(5): 1464-1469  
+  
+<br>
+
+### 2014  
+
+[Sambo et al. (2014) Knowledge, Attitudes and Practices about rabies prevention and control: a community survey in Tanzania. PLoS NTDs](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003310)  
+  
+[Fitzpatrick et al. (2014) Cost-effectiveness of Canine Vaccination to Prevent Human Rabies in Rural Tanzania. Annals of Internal Medicine](http://annals.org/article.aspx?articleid=1814425)  
+  
+Lankester et al. (2014). Implementing Pasteur’s vision for rabies elimination Science 345 (6204): 1562-1564 doi: 10.1126/science.1256306  access to pdf  
+  
+Cleaveland et al. (2014). Rabies control and elimination: a test case for One Health. Veterinary Record 175:188-193 doi:10.1136/vr.g4996  
+  
+Bardosh et al. (2014). Eliminating rabies in Tanzania? Local understandings and responses to mass dog vaccination in Kilombero and Ulanga districts. PLoS Neglected Tropical Diseases 8(6): e2935 doi: 10.1371/journal.pntd.0002935  
+  
+Morters et al. (2014). The demography of free-roaming dog populations and applications to disease and population control. Journal of Animal Ecology 51:1096-1106 doi: 10.1111/1365-2664.12279  
+  
+Mollentze et al. (2014). A Bayesian approach for inferring the dynamics of partially observed endemic infectious diseases from space-time-genetic data. Proceedings of the Royal Society, Series B 281: 20133251  
+  
+Cleaveland et al. (2014). The changing landscape of rabies epidemiology and control. Onderspoort Veterinary Journal 81(2): doi: 10.4102/ojvr.v81i2.731  
+  
+Byrom et al. (2014). Episodic outbreaks of small mammals influence predator community dynamics in an East African Savannah Ecosystem. Oikos doi: 10.1111/oik.00962  
+  
+<br>
+
+### 2013
+
+Sambo et al. (2013). The burden of rabies in Tanzania and its impacts on local communities. PLoS Neglected Tropical Diseases 7(11): e2510. doi:10.1371/journal.pntd.0002510
+
+Vos et al. (2013). Bovine Rabies in Turkey: patterns of infection and implications for costs and control. Epidemiology and Infection 26:1-9
+
+Metcalf et al. (2013). Persistence in epidemic metapopulations: quantifying the rescue effects for measles, mumps, rubella and whooping cough. PLoS One 8(9): e74696. doi:10.1371/journal.pone.0074696
+
+Townsend et al. (2013). Designing programs for eliminating canine rabies from islands: Bali, Indonesia as a case-study. PLoS Neglected Tropical Diseases 7(8): e2372
+
+Klepac et al. (2013). Towards the endgame and beyond: complexities and challenges for the elimination of infectious diseases. Phil. Trans. Roy. Soc. 368: 20120137 
+
+Freuling et al. (2013). Elimination of fox rabies from Europe: determinants of success and lessons for the future. Phil. Trans. Roy. Soc. 368: 20120142 *equal contributions
+
+Putra et al. (2013). Response to a rabies epidemic, Bali, Indonesia, 2008-2011. Emerging Infectious Diseases 19(4): 649-651 http://dx.doi.org/10.3201/eid1904.120380
+
+Sinclair et al. (2013). Asynchronous food-web pathways could buffer the response of Serengeti Predators to El Niño Southern Oscillation. Ecology 94(5): 1123-1130
+
+Townsend et al. (2013). Surveillance guidelines for disease elimination: a case study of canine rabies. Comparative Immunology, Microbiology & Infectious Diseases doi: 10.1016/j.cimid.2012.10.008
+
+Swiff, Hampson & Anderson (2013). Potential economic benefits of eliminating canine rabies. Antiviral research 98(2): 352-356
+
+
+<br>
+
+### 2012  
+
+[Fitzpatrick et al. (2012) Potential for rabies control through dog vaccination in wildlife-abundant communities of Tanzania. PLoS NTDs](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0001796)
+
+[Marston et al. (2012) Ikoma Lyssavirus: Identification of a highly divergent novel lyssavirus in an African Civet. EID](https://wwwnc.cdc.gov/eid/article/18/4/11-1553)
+
+[Beyer et al. (2012) The implications of metapopulation dynamics on the design of rabies vaccination campaigns. Vaccine](https://www.sciencedirect.com/science/article/pii/S0264410X11019876?via%3Dihub)
+
+Hughes et al. (2012). Transmission of Equine Influenza Virus during an outbreak is characterized by frequent mixed infections and loose transmission bottlenecks. PLoS Pathogens 8(12): e1003081. doi:10.1371/journal.ppat.1003081
+
+Lembo et al. (2012). Neglected zoonoses: why should we care and what should we do? EJCAP 22(2): 13-22
+
+Morters et al. (2012). Evidence-based control of canine rabies: a critical review of population density reduction. Journal of Animal Ecology doi: 10.1111/j.1365-2656.2012.02033.x
+
+Brunker et al. (2012). Integrating the landscape epidemiology and genetics of RNA viruses: rabies in domestic dogs as a model. Parasitology 20: 1-15
+
+Halliday et al. (2012). Bringing together emerging and endemic zoonoses surveillance: shared challenges and a common solution. Phil. Trans. Roy. Soc. 367: 2872-2880
+
+Lembo, on behalf of the Partners for Rabies Prevention‡ (2012). The Blueprint for Rabies Prevention and Control: A Novel Operational Toolkit for Rabies Elimination. PLoS Neglected Tropical Diseases 6(2): e1388. doi:10.1371/journal.pntd.0001388 ‡38 co-authors.
+
+<br>
+
+### 2011  
+
+[Beyer et al. (2011) Metapopulation Dynamics of Rabies and the Efficacy of Vaccination. Proc Roy Soc B](http://rspb.royalsocietypublishing.org/content/278/1715/2182.long)
+ 
+Hampson et al.. (2011). Predictability of anthrax infection in the Serengeti Ecosystem, Tanzania. Journal of Applied Ecology 48 (6): 1333-1344. 
+
+Hampson, Cleaveland & Briggs (2011). Evaluation of cost-effective strategies for rabies post-exposure vaccination in low-income countries. PLoS Neglected Tropical Diseases 5(3): e982. doi:10.1371/journal.pntd.0000982
+
+Lembo et al. (2011). Serologic surveillance of anthrax in the Serengeti Ecosystem, Tanzania, 1996-2009. Emerging Infectious Diseases 17(3): 387-394
+
+<br>
+
+### 2010 and earlier  
+
+[Shim et al. (2009) Evaluating the cost-effectiveness of rabies post-exposure prophylaxis: A case study in Tanzania. Vaccine](https://www.sciencedirect.com/science/article/pii/S0264410X09013516?via%3Dihub) 
+
+[Hampson et al. (2009) Transmission dynamics and prospects for the elimination of canine rabies. PLoS Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000053)
+
+[Kaare et al. (2009) Rabies Control in Rural Africa: Evaluation Strategies for Effective Domestic Dog Vaccination. Vaccine](https://www.sciencedirect.com/science/article/pii/S0264410X0801307)
+
+[Hampson et al. (2008) Rabies exposures, post-exposure prophylaxis and deaths in a region of endemic canine rabies. PLoS NTDs](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0000339)
+
+[Lembo, et al. (2008) Exploring reservoirs dynamics: a case study of rabies in the Serengeti ecosystem. Journal of Applied Ecology](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2008.01468.x)
+
+[Cleaveland et al. (2007) Living with rabies in Africa. Vet Rec](https://veterinaryrecord.bmj.com/content/161/9/293)
+
+Durant et al. (2010). Does Size matter? An investigation of habitat selectivity across a carnivore assemblage in the Serengeti, Tanzania. Journal of Applied Ecology 79(5): 1012-1022. 
+
+Lembo et al. (2010). The feasibility of canine rabies elimination in Africa: dispelling doubts with data. PLoS Neglected Tropical Diseases 4(2): e626. doi:10.1371/journal.pntd.0000626
+
+Hampson et al. (2007). Synchronous cycles of domestic dog rabies in sub-Saharan Africa and the impact of control efforts. PNAS 104(18): 7717-7722 
+
+Metcalf, Hampson & Koons (2007) What happens if density increases? Conservation implications of population influx into refuges. Animal Conservation: online publication 29 Aug 2007: doi: 10.1111/j.1469-1795.2007.00138.x
+
+Metcalf et al. (2007). Herpetofaunal assemblages on seven offshore islands of northwestern Madagascar. Tropical Zoology.
+
+Metcalf et al. (2007). The importance of north-west Madagascar for marine turtle conservation. Oryx 41(2): 232-237 *equal contributions
+
+<br>
+
+### Book Chapters
+
+Knapp et al.  (2015). Human Health in the Greater Serengeti Ecosystem. Chapter in Serengeti IV (Ed. Sinclair, A. R. E.).
+
+Craft et al. (2015). Carnivore communities in the Greater Serengeti Ecosystem. In: Sinclair, A. R. E. & Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.
+
+Hampson et al. (2015). Living in the Greater Serengeti ecosystem: human-wildlife conflict and coexistence. In: Sinclair, A. R. E. & Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.
+
+Lembo et al. (2015). Infectious Diseases in the Serengeti: What We Know and How We Know It. In: Sinclair, A. R. E. & Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.
+
+Byrom et al. (2015). Small Mammal Diversity and Population Dynamics in the Greater Serengeti Ecosystem. In: Sinclair, A. R. E. & Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.
+
+Knobel et al. (2013). Dog rabies and its control. Chapter in Rabies: scientific basis of the disease and its management, 3rd Edition (Ed. Jackson, A. C.).
+
+Lembo et al. (2013). Zoonoses Prevention, Control and Elimination in dogs. Chapter in: Dogs, Zoonoses and Public Health (Eds. Macpherson, C. N. L., Meslin, A. R. E. and Wandeler, A. I.), 2nd Ed. CAB International, Wallingford, UK
+
+Cleaveland et al. (2012). Domestic animal health programs to protect wildlife. Chapter in Animal health and biodiversity: preparing for the future. Compendium of the OIE Global Conference on Wildlife, Paris, France, 23-25 February 2011 (Eds. Karesh, W., and Machalaba, C.). pp. 91-100
+
+Cleaveland et al. (2007). The Multiple Roles of Infectious Diseases in the Serengeti Ecosystem. Chapter in Serengeti III (Ed. Sinclair, A. R. E. & Packer, C.).

@@ -1,0 +1,67 @@
+---
+title: ""
+---
+
+<ol class="breadcrumb" style="background-color:white;">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item active">Dog Vaccination Scheme</li>
+</ol>
+
+# Dog Vaccination Scheme
+
+Worldwide, around 60,000 human deaths annually are the result of the Rabies virus. Although the virus is transmitted by a wide range of mammals, a large proportion of these deaths are from the bites of infected domestic dogs. The incidence of Rabies can be effectively controlled by implementing consistent and comprehensive dog vaccination schemes.  
+  
+Our team has been conducting free annual domestic dog Rabies vaccination campaigns in Serengeti District since 2003, in collaboration with the Serengeti District Livestock Office. Over this time period, we have increased the number of villages included in the vaccination campaigns, resulting in a vast increase in the number of dogs vaccinated.  
+  
+Please scroll down for data on our dog vaccination campaigns over the years, including maps of villages covered.  
+
+<font color="red"> Notes: TYPE OF CAMPAIGN e.g. central/house-to-house? </font>  
+
+<center>
+
+<img src="img/vacc_1.jpg" style="display: inline-block; margin-left: auto; margin-right: auto; height:300px;"/>
+<img src="img/vacc_2.jpg" style="display: inline-block; margin-left: auto; margin-right: auto; height:300px;"/>
+
+</center>
+
+<br>
+
+***  
+
+### Data {.tabset .tabset-pills}  
+  
+#### Serengeti: 2002 - present (annual)  
+```{r, echo=FALSE, warning=FALSE}
+start_date <- "2001-12-31"
+end_date <- Sys.Date()
+dog_vac_barplot(dataframe=dog_vacc_data, type="all", start_date=start_date, end_date=end_date)
+```
+  
+<br>
+  
+*** 
+
+#### Serengeti: 2015 - present (monthly)  
+```{r, echo=FALSE, warning=FALSE}
+start_date <- "2014-12-31"
+end_date <- Sys.Date()
+dog_vac_barplot(dataframe=dog_vacc_data_subset, type="subset", start_date=start_date,
+                end_date=end_date)
+```
+
+<br>
+
+***
+
+### Village-level Vaccination Coverage  
+  
+The map below gives detail on the villages that were vaccinated (1 or more times) by our team in Serengeti District from 2014-2017; where villages were visited multiple times in the same year, the date and Kitongoji (sub-village) name are given. Please select from the dropdown menu to view data from a specific year:  
+
+```{r droplink, echo=FALSE}
+# Create table
+table_site <- c("html/ser_vacc_map_2017.html", "html/ser_vacc_map_2016.html",
+                "html/ser_vacc_map_2015.html", "html/ser_vacc_map_2014.html")
+names(table_site) <- c("2017", "2016", "2015", "2014")
+
+bsselect(table_site, type = "iframe", frame_height="550", style="btn-primary", show_tick=TRUE, height=0)
+```
