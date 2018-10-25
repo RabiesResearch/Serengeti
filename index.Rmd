@@ -1,6 +1,9 @@
 ---
 title: ""
 ---
+<head>
+<link rel="shortcut icon" href="img/tab_logo.png" type="image/x-icon" />
+</head>
 
 <br>
 
