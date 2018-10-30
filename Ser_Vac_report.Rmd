@@ -55,7 +55,7 @@ dog_vac_barplot(dataframe=dog_vacc_data_subset, type="subset", start_date=start_
 
 ### Village-level Vaccination Coverage  
   
-The map below gives detail on the villages that were vaccinated (1 or more times) by our team in Serengeti District from 2014-2017; where villages were visited multiple times in the same year, the date and Kitongoji (sub-village) name are given. Please select from the dropdown menu to view data from a specific year:  
+The map below gives detail on the villages that were vaccinated (1 or more times) by our team in Serengeti District from 2014-2018; where villages were visited multiple times in the same year, the date and Kitongoji (sub-village) name are given. Please select from the dropdown menu to view data from a specific year:  
 
 ```{r droplink, echo=FALSE}
 # Create table
