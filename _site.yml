@@ -14,7 +14,7 @@ navbar:
           href: Ser_overview.html
         - text: "Publications"
           href: Ser_publications.html
-    - text: "Dog Vaccination Scheme"
+    - text: "Dog Vaccination"
       href: Ser_Vac_report.html
     - text: "Rabies Incidence"
       href: Ser_Epi_report.html
