@@ -1,5 +1,5 @@
-rmd_files <- list.files(path="Serengeti/html/",pattern="Rmd")
+rmd_files <- list.files(path=map_path, pattern="Rmd")
 
 # print(rmd_files)
 
-sapply(rmd_files, function(x)rmarkdown::render(paste("Serengeti/html/",x,sep="")))
+sapply(rmd_files, function(x)rmarkdown::render(paste(map_path, x, sep="")))

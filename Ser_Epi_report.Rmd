@@ -67,7 +67,7 @@ epi_plot(human_dataframe=human_epi_month, animal_dataframe=animal_epi_month,
 <br> 
 
 ### Summary
-Please `r embed_data(district="Serengeti", label="click here")` to download an .xlsx file that gives a summary of probable animal cases and human exposures in Serengeti District from 2002 to `r substr(Sys.Date(), 1,4)`.
+Please `r embed_data(district="Serengeti", type="animal", label="click here")` to download a .csv file that gives a summary of probable animal cases and `r embed_data(district="Serengeti", type="human", label="click here")` for human exposures in Serengeti District from 2002 to `r substr(Sys.Date(), 1,4)`.
 
 *** 
   
