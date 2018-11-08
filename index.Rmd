@@ -7,15 +7,15 @@ title: ""
 
 <br>
 
-In Tanzania, we carry out epidemiological and implementation research on rabies and its prevention and control across different parts of the country. This work has also contributed to multi-country and global studies to inform policy for rabies prevention and control.
+In Tanzania, we carry out research on rabies epidemiology, prevention and control. Our work in Tanzania has contributed to multi-country and global studies to inform policy and practice.
 
-This page displays data from our long-term contact tracing project in <b>Serengeti District</b>. See below for links to our other pages for research in Tanzania, or return to our hub:    
+This website provides information from long-term contact tracing in <b>Serengeti District</b>, Northwest Tanzania. See below for links to our research in other parts of the country, or return to our hub for rabies research in other parts of the world and useful links on rabies generally:    
   
-* Long-term contact tracing data from <a href="https://rabiesresearch.github.io/Ngorongoro/", target="blank">Ngorongoro District</a>  
-
+* Long-term contact tracing in <a href="https://rabiesresearch.github.io/Ngorongoro/", target="blank">Ngorongoro District</a> 
 ``` {r, echo=FALSE}
-# * Implementation research on vaccination and surveillance approaches in Mara Region (LINK)  
-# * Large-scale mobile phone-based surveillance in Southern Tanzania (LINK)  
+# * Implementation research on rabies surveillance and control in Mara Region (LINK)  
+# * Mobile phone-based surveillance in Southern Tanzania (LINK)  
+# * Rabies control on <a href="https://rabiesresearch.github.io/Pemba/", target="blank">Pemba Island</a> 
 ```
 
 <br>
