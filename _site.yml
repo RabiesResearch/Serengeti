@@ -18,6 +18,8 @@ navbar:
       href: Ser_Vac_report.html
     - text: "Rabies Incidence"
       href: Ser_Epi_report.html
+    - text: "Data"
+      href: data_download.html
   # Arrange items on the right side of the navbar (social links)
   right:
     # The contact.html script currently holds a link to email Katie Hampson
