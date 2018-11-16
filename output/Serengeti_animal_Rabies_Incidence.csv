@@ -1,4 +1,4 @@
-"Year","Number of bite victims","Number of suspect cases","Number of confirmed cases"
+"Year","Number of bite victims","Number of probable cases","Number of confirmed cases"
 "2002",42,32,1
 "2003",603,306,18
 "2004",907,469,29
@@ -14,5 +14,5 @@
 "2014",694,191,33
 "2015",561,184,78
 "2016",275,92,31
-"2017",70,39,18
+"2017",71,40,19
 "2018",16,15,2

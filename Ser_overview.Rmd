@@ -17,7 +17,7 @@ title: ""
 
 We carry out epidemiological and implementation research on rabies and its prevention and control in the Serengeti District of Mara region in Northwest Tanzania. We have a long-term contact tracing study ongoing in Serengeti District that began in 2002.  
 
-Since the study began, we have traced `r format(ser_overview$n_suspect_animal, big.mark=",")` suspect animal cases and `r format(ser_overview$n_suspect_human, big.mark=",")` suspect human exposures in Serengeti District. We have also been able to generate `r format(ser_overview$n_positives, big.mark=",")` whole genome sequences of rabies viruses from the samples we have collected whilst contact tracing.   
+Since the study began, we have traced `r format(ser_overview$n_suspect_animal, big.mark=",")` probable animal cases and `r format(ser_overview$n_suspect_human, big.mark=",")` probable human exposures in Serengeti District. We have also been able to generate `r format(ser_overview$n_positives, big.mark=",")` whole genome sequences of rabies viruses from the samples we have collected whilst contact tracing.   
 
 We work with the local District Veterinary Office to implement dog vaccination campaigns. To see the impact that these dog vaccinations have had on circulating rabies cases and exposure risks, check out our [Vaccination](Ser_Vac_report.html) and [Epidemiology](Ser_Epi_report.html) pages. 
 

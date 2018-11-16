@@ -14,6 +14,6 @@ A summary of the data can be downloaded below. If you use the summarised data pl
 Ongoing data collection continues as part of several PhD and postdoctoral studies. Please get in contact if you are interested in collaborating on more detailed data.  
   
   * Probable animal cases - `r embed_data(district="Serengeti", type="animal", label="Download")`  
-  * Suspect human exposures - `r embed_data(district="Serengeti", type="human", label="Download")`
+  * Probable human exposures - `r embed_data(district="Serengeti", type="human", label="Download")`
 
 *** 

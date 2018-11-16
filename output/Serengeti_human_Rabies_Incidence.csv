@@ -1,4 +1,4 @@
-"Year","Number of bite victims","Number of suspect exposures","Number of bite patients","Number of suspect patients","Number of human deaths"
+"Year","Number of bite victims","Number of probable exposures","Number of bite patients","Number of probable exposure patients","Number of human deaths"
 "2002",86,32,67,23,3
 "2003",330,203,268,169,2
 "2004",364,176,284,132,5

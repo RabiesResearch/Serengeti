@@ -9,9 +9,9 @@ title: ""
 
 # Rabies Incidence  
   
-Rabies incidence has been estimated through exhaustive contact tracing in Serengeti District since 2002. Contact tracing involves identifying probable animal rabies cases and human rabies exposures, through interviews with witnesses and contacts. A brain tissue sample is also taken from the animal if located, for subsequent testing: a rapid diagnostic kit is used in-situ, with laboratory confirmation and whole genome sequencing completed later.  
+Rabies incidence has been estimated through exhaustive contact tracing in Serengeti District since 2002. Contact tracing involves identifying probable animal Rabies cases and probable human Rabies exposures, through interviews with witnesses and contacts. A brain tissue sample is also taken from the animal if located, for subsequent testing: a rapid diagnostic kit is used in-situ, with laboratory confirmation and whole genome sequencing completed later.  
   
-Scroll down to see rabies incidence over time, including maps of probable and lab-confirmed animal rabies cases, as well as probable human rabies exposures and deaths.  
+Scroll down to see Rabies incidence over time, including maps of probable and lab-confirmed animal Rabies cases, as well as probable human Rabies exposures and deaths from probable Rabies.  
   
 <center>
 
