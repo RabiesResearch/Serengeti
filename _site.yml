@@ -3,8 +3,9 @@ output_dir: "."
 # Produce navigation bar at the top of the screen with the menus
 navbar:
   # Title appears in the top left of the navbar
-  title: "Rabies Research in Serengeti District"
+  title: "Serengeti District"
   # Arrange items on the left side of the navbar (to the right of the title)
+  # type: inverse # Changes theme colour to purple
   left:
     - text: "Home"
       href: index.html # The page that will appear when the name on the navbar is clicked
