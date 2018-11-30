@@ -21,7 +21,7 @@ Since the study began, we have traced `r format(ser_overview$n_suspect_animal, b
 
 We work with the local District Veterinary Office to implement dog vaccination campaigns. To see the impact that these dog vaccinations have had on circulating rabies cases and exposure risks, check out our [Vaccination](Ser_Vac_report.html) and [Epidemiology](Ser_Epi_report.html) pages. 
 
-Full details of our publications are on google scholar. Links to publications from our research in Serengeti are available [here](Ser_publications.html) and links to our other publications on rabies are on our [hub](to_be_added.html).
+Full details of our publications are on google scholar. Links to publications from our research in Serengeti are available [here](Ser_publications.html) and links to our other projects on rabies can be found on our <a href="https://rabiesresearch.shinyapps.io/shiny_hub/", target="blank">hub</a>.
 
 </div>
 

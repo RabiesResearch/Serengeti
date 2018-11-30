@@ -9,7 +9,7 @@ title: ""
 
 In Tanzania, we carry out research on rabies epidemiology, prevention and control. Our work in Tanzania has contributed to multi-country and global studies to inform policy and practice.
 
-This website provides information from long-term contact tracing in Serengeti District, Northwest Tanzania. See below for links to our research in other parts of the country, or return to our <a href="https://rabiesresearch.shinyapps.io/shiny_hub/", target="blank">hub</a> for rabies research in other parts of the world and useful links on rabies generally:    
+This website provides information from long-term contact tracing in Serengeti District, Northwest Tanzania. See below for links to our research in other parts of the country, or return to our <a href="https://rabiesresearch.shinyapps.io/shiny_hub/", target="blank">hub</a> for rabies research in other parts of the world:    
   
 * Long-term contact tracing in <a href="https://rabiesresearch.github.io/Ngorongoro/", target="blank">Ngorongoro District</a> 
 
