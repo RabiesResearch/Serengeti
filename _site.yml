@@ -12,15 +12,21 @@ navbar:
     - text: "About"
       menu:
         - text: "Project Information" # Name that appears on the navbar
-          href: Ser_overview.html
+          href: about_overview.html
+        - text: "Rabies Control"
+          href: about_vax.html
+        - text: "Rabies Epidemiology"
+          href: about_epi.html
         - text: "Publications"
-          href: Ser_publications.html
-    - text: "Dog Vaccination"
-      href: Ser_Vac_report.html
-    - text: "Rabies Incidence"
-      href: Ser_Epi_report.html
+          href: about_publications.html
     - text: "Data"
-      href: data_download.html
+      menu:
+        - text: "Dog Vaccination"
+          href: data_vax.html
+        - text: "Rabies Incidence"
+          href: data_epi.html
+        - text: "Download"
+          href: data_download.html
   # Arrange items on the right side of the navbar (social links)
   right:
     # The contact.html script currently holds a link to email Katie Hampson

@@ -9,7 +9,7 @@ output:
 
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
-  <li class="breadcrumb-item"><a href="Ser_overview.html">Project Information</a></li>
+  <li class="breadcrumb-item"><a href="about_overview.html">Project Information</a></li>
   <li class="breadcrumb-item active">Publications</li>
 </ol>
 

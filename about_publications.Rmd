@@ -1,0 +1,96 @@
+---
+title: ""
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    toc_depth: 3
+---
+
+<ol class="breadcrumb" style="background-color:white;">
+  <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+  <li class="breadcrumb-item"><a href="about_overview.html">Project Information</a></li>
+  <li class="breadcrumb-item active">Publications</li>
+</ol>
+
+<h1> Publications</h1>  
+
+#### Publications that include research from Serengeti District are listed below:  
+
+<br>
+
+### 2017  
+
+[Sambo et al. (2017) Comparing methods of assessing dog rabies vaccination coverage in rural and urban communities in Tanzania, Front Vet Sci](https://www.frontiersin.org/articles/10.3389/fvets.2017.00033/full)  
+  
+<br> 
+
+### 2016  
+
+Mtema et al. (2016). Mobile phones as surveillance tools: Implementing and evaluating a large-scale intersectoral surveillance system for rabies in Tanzania. PLoS Medicine 13(4): e1002002. doi:10.1371/journal.pmed.1002002
+  
+<br>
+
+### 2015  
+
+[Brunker et al. (2015) Elucidating the phylodynamics of endemic rabies virus in eastern Africa using whole genome sequencing. Virus Evolution](http://ve.oxfordjournals.org/content/1/1/vev011)  
+
+<br>
+
+### 2014  
+
+[Sambo et al. (2014) Knowledge, Attitudes and Practices about rabies prevention and control: a community survey in Tanzania. PLoS NTDs](http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003310)  
+  
+[Fitzpatrick et al. (2014) Cost-effectiveness of Canine Vaccination to Prevent Human Rabies in Rural Tanzania. Annals of Internal Medicine](http://annals.org/article.aspx?articleid=1814425)  
+
+<br>
+
+### 2013
+
+[Sambo et al. (2013). The burden of rabies in Tanzania and its impacts on local communities. PLoS NTDs](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0002510)
+
+<br>
+
+### 2012  
+
+[Fitzpatrick et al. (2012) Potential for rabies control through dog vaccination in wildlife-abundant communities of Tanzania. PLoS NTDs](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0001796)
+
+[Marston et al. (2012) Ikoma Lyssavirus: Identification of a highly divergent novel lyssavirus in an African Civet. EID](https://wwwnc.cdc.gov/eid/article/18/4/11-1553)
+
+[Beyer et al. (2012) The implications of metapopulation dynamics on the design of rabies vaccination campaigns. Vaccine](https://www.sciencedirect.com/science/article/pii/S0264410X11019876?via%3Dihub)
+
+<br>
+
+### 2011  
+
+[Beyer et al. (2011) Metapopulation Dynamics of Rabies and the Efficacy of Vaccination. Proc Roy Soc B](http://rspb.royalsocietypublishing.org/content/278/1715/2182.long)
+ 
+<br>
+
+### 2010 and earlier  
+
+[Shim et al. (2009) Evaluating the cost-effectiveness of rabies post-exposure prophylaxis: A case study in Tanzania. Vaccine](https://www.sciencedirect.com/science/article/pii/S0264410X09013516?via%3Dihub) 
+
+[Hampson et al. (2009) Transmission dynamics and prospects for the elimination of canine rabies. PLoS Biology](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000053)
+
+[Kaare et al. (2009) Rabies Control in Rural Africa: Evaluation Strategies for Effective Domestic Dog Vaccination. Vaccine](https://www.sciencedirect.com/science/article/pii/S0264410X0801307)
+
+[Hampson et al. (2008) Rabies exposures, post-exposure prophylaxis and deaths in a region of endemic canine rabies. PLoS NTDs](https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0000339)
+
+[Lembo, et al. (2008) Exploring reservoirs dynamics: a case study of rabies in the Serengeti ecosystem. Journal of Applied Ecology](https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2008.01468.x)
+
+[Cleaveland et al. (2007) Living with rabies in Africa. Vet Rec](https://veterinaryrecord.bmj.com/content/161/9/293)
+
+<br>
+
+### Book Chapters
+
+Knapp et al.  (2015). Human Health in the Greater Serengeti Ecosystem. Chapter in Serengeti IV (Ed. Sinclair, A. R. E.).
+
+Craft et al. (2015). Carnivore communities in the Greater Serengeti Ecosystem. In: Sinclair, A. R. E. & Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.
+
+Hampson et al. (2015). Living in the Greater Serengeti ecosystem: human-wildlife conflict and coexistence. In: Sinclair, A. R. E. & Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.
+
+Lembo et al. (2015). Infectious Diseases in the Serengeti: What We Know and How We Know It. In: Sinclair, A. R. E. & Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.
+
+Cleaveland et al. (2007). The Multiple Roles of Infectious Diseases in the Serengeti Ecosystem. Chapter in Serengeti III (Ed. Sinclair, A. R. E. & Packer, C.).
