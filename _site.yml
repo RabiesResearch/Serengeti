@@ -29,6 +29,12 @@ navbar:
           href: data_download.html
   # Arrange items on the right side of the navbar (social links)
   right:
+    - icon: fa-globe fa-lg
+      menu:
+        - text: "Central Hub"
+          href: https://rabiesresearch.shinyapps.io/shiny_hub/
+        - text: "Ngorongoro website"
+          href: https://rabiesresearch.github.io/Ngorongoro/
     # The contact.html script currently holds a link to email Katie Hampson
     - icon: fa-envelope fa-lg
       href: contact.html
