@@ -2,6 +2,17 @@
 title: ""
 ---
 
+<style>
+@media screen and (max-width: 400px) {
+    .map_image {
+    width: 100%; float: left; padding: 0 20px 20px 0; vertical-align: middle; }
+}
+@media screen and (min-width: 400px) {
+    .map_image {
+    width: 30%; float: left; padding: 0 20px 20px 0; vertical-align: middle; }
+}
+</style>
+
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
   <li class="breadcrumb-item active">Project Information</li>
@@ -11,7 +22,7 @@ title: ""
 
 <div style="display: inline-block; ">
 
-<img src="img/ser_map.png" style="width: 30%; min-width: 100px; float: left; padding: 0 20px 20px 0; vertical-align: middle;"/>
+<img src="img/ser_map.png" class= "map_image"/>
 
 <div style="width: 70%; float: right; vertical-align: middle; margin: auto 0;">
 
