@@ -252,16 +252,22 @@ $(document).ready(function () {
 </div>
 
 
+<!--Add section detailing layout on different media sizes-->
 <style>
 @media screen and (max-width: 400px) {
     .map_image {
     width: 100%; float: left; padding: 0 20px 20px 0; vertical-align: middle; }
+    .map_text {
+    width: 100%; float: right; vertical-align: middle; margin: auto 0; }
 }
 @media screen and (min-width: 400px) {
     .map_image {
     width: 30%; float: left; padding: 0 20px 20px 0; vertical-align: middle; }
+    .map_text {
+    width: 70%; float: right; vertical-align: middle; margin: auto 0; }
 }
 </style>
+<!--Add breadcrumbs to top of page-->
 <ol class="breadcrumb" style="background-color:white;">
 <li class="breadcrumb-item">
 <a href="index.html">Home</a>
@@ -270,11 +276,12 @@ $(document).ready(function () {
 Project Information
 </li>
 </ol>
+<!--Page section with map image and project info-->
 <div id="project-information" class="section level1">
 <h1>Project Information</h1>
 <div style="display: inline-block; ">
 <p><img src="img/ser_map.png" class= "map_image"/></p>
-<div style="width: 70%; float: right; vertical-align: middle; margin: auto 0;">
+<div class="map_text">
 <p>We carry out epidemiological and implementation research on rabies and its prevention and control in the Serengeti District of Mara region in Northwest Tanzania. We have a long-term contact tracing study ongoing in Serengeti District that began in 2002.</p>
 <p>Since the study began, we have traced 3,519 probable animal cases and 1,590 probable human exposures in Serengeti District. We have also been able to generate 374 whole genome sequences of rabies viruses from the samples we have collected whilst contact tracing.</p>
 <p>We work with the local District Veterinary Office to implement dog vaccination campaigns. To see the impact that these dog vaccinations have had on circulating rabies cases and exposure risks, check out our <a href="data_vax.html">Vaccination</a> and <a href="data_epi.html">Epidemiology</a> pages.</p>
@@ -282,6 +289,7 @@ Project Information
 </div>
 </div>
 <p><br></p>
+<!--Add a block section for 100% page width-->
 <div style="display: inline-block; ">
 <center>
 <p>Our work is generously supported by many organizations. If you would like more information, we can be contacted via the links at the top-right.</p>
