@@ -13,7 +13,7 @@ The data presented are intended to show the progress and impact of dog vaccinati
 A summary of the data can be downloaded below. If you use the summarised data please cite/acknowledge this website and the local government personnel in Tanzania who are delivering dog vaccinations.  
 Ongoing data collection continues as part of several PhD and postdoctoral studies. Please get in contact if you are interested in collaborating on more detailed data.  
   
-  * Probable animal cases - `r embed_data(district="Serengeti", type="animal", label="Download")`  
-  * Probable human exposures - `r embed_data(district="Serengeti", type="human", label="Download")`
+  * <b>Probable animal cases:</b> the number of animals bitten, the number of animals considered to be a probable Rabies case and the number of lab confirmed Rabies cases  - `r embed_data(district="Serengeti", type="animal", label="Download")`  
+  * <b>Probable human exposures:</b> the number of bite victims and probable Rabies exposures, the number of bite victims that sought care overall and by probable exposure, and the number of deaths that are the direct result of Rabies - `r embed_data(district="Serengeti", type="human", label="Download")`
 
 *** 
