@@ -20,6 +20,7 @@ navbar:
         - text: "Publications"
           href: about_publications.html
     - text: "Data"
+      icon: fa-bar-chart
       menu:
         - text: "Dog Vaccination"
           href: data_vax.html
