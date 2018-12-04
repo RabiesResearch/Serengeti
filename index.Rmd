@@ -1,9 +1,6 @@
 ---
 title: ""
 ---
-<head>
-<link rel="icon" href="img/tab_logo.png" type="image/png" />
-</head>
 
 <br>
 

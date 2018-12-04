@@ -33,7 +33,7 @@ navbar:
       menu:
         - text: "Central Hub"
           href: https://rabiesresearch.shinyapps.io/shiny_hub/
-        - text: "Ngorongoro website"
+        - text: "Ngorongoro District"
           href: https://rabiesresearch.github.io/Ngorongoro/
     # The contact.html script currently holds a link to email Katie Hampson
     - icon: fa-envelope fa-lg
