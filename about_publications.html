@@ -19,9 +19,6 @@
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
-<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
@@ -179,101 +176,6 @@ $(document).ready(function () {
 
 
 
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2,h3",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
-
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row-fluid">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
-
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
 
 
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
@@ -392,57 +294,26 @@ Publications
 <div id="publications-that-include-research-from-serengeti-district-are-listed-below" class="section level4">
 <h4>Publications that include research from Serengeti District are listed below:</h4>
 <p><br></p>
-</div>
-<div id="section" class="section level3">
-<h3>2017</h3>
-<p><a href="https://www.frontiersin.org/articles/10.3389/fvets.2017.00033/full">Sambo et al. (2017) Comparing methods of assessing dog rabies vaccination coverage in rural and urban communities in Tanzania, Front Vet Sci</a></p>
+<p><a href="https://www.frontiersin.org/articles/10.3389/fvets.2017.00033/full" target="blank">Sambo et al. (2017)</a> Comparing methods of assessing dog rabies vaccination coverage in rural and urban communities in Tanzania, <em>Front Vet Sci</em></p>
+<p><a href="https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1002002" target="blank">Mtema et al. (2016)</a> Mobile phones as surveillance tools: Implementing and evaluating a large-scale intersectoral surveillance system for rabies in Tanzania. <em>PLoS Medicine</em> 13(4)</p>
+<p><a href="http://ve.oxfordjournals.org/content/1/1/vev011" target="blank">Brunker et al. (2015)</a> Elucidating the phylodynamics of endemic rabies virus in eastern Africa using whole genome sequencing. <em>Virus Evolution</em></p>
+<p><a href="http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003310" target="blank">Sambo et al. (2014)</a> Knowledge, Attitudes and Practices about rabies prevention and control: a community survey in Tanzania. <em>PLoS NTDs</em></p>
+<p><a href="http://annals.org/article.aspx?articleid=1814425" target="blank">Fitzpatrick et al. (2014)</a> Cost-effectiveness of Canine Vaccination to Prevent Human Rabies in Rural Tanzania. <em>Annals of Internal Medicine</em></p>
+<p><a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0002510" target="blank">Sambo et al. (2013)</a> The burden of rabies in Tanzania and its impacts on local communities. PLoS NTDs</p>
+<p><a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0001796" target="blank">Fitzpatrick et al. (2012)</a> Potential for rabies control through dog vaccination in wildlife-abundant communities of Tanzania. <em>PLoS NTDs</em></p>
+<p><a href="https://wwwnc.cdc.gov/eid/article/18/4/11-1553" target="blank">Marston et al. (2012)</a> Ikoma Lyssavirus: Identification of a highly divergent novel lyssavirus in an African Civet. <em>EID</em></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X11019876?via%3Dihub" target="blank">Beyer et al. (2012)</a> The implications of metapopulation dynamics on the design of rabies vaccination campaigns. <em>Vaccine</em></p>
+<p><a href="http://rspb.royalsocietypublishing.org/content/278/1715/2182.long" target="blank">Beyer et al. (2011)</a> Metapopulation Dynamics of Rabies and the Efficacy of Vaccination. <em>Proc Roy Soc B</em></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X09013516?via%3Dihub" target="blank">Shim et al. (2009)</a> Evaluating the cost-effectiveness of rabies post-exposure prophylaxis: A case study in Tanzania. <em>Vaccine</em></p>
+<p><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000053" target="blank">Hampson et al. (2009)</a> Transmission dynamics and prospects for the elimination of canine rabies. <em>PLoS Biology</em></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X0801307" target="blank">Kaare et al. (2009)</a> Rabies Control in Rural Africa: Evaluation Strategies for Effective Domestic Dog Vaccination. <em>Vaccine</em></p>
+<p><a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0000339" target="blank">Hampson et al. (2008)</a> Rabies exposures, post-exposure prophylaxis and deaths in a region of endemic canine rabies. <em>PLoS NTDs</em></p>
+<p><a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2008.01468.x" target="blank">Lembo, et al. (2008)</a> Exploring reservoirs dynamics: a case study of rabies in the Serengeti ecosystem. <em>Journal of Applied Ecology</em></p>
+<p><a href="https://veterinaryrecord.bmj.com/content/161/9/293" target="blank">Cleaveland et al. (2007)</a> Living with rabies in Africa. <em>Vet Rec</em></p>
 <p><br></p>
-</div>
-<div id="section-1" class="section level3">
-<h3>2016</h3>
-<p>Mtema et al. (2016). Mobile phones as surveillance tools: Implementing and evaluating a large-scale intersectoral surveillance system for rabies in Tanzania. PLoS Medicine 13(4): e1002002. <a href="doi:10.1371/journal.pmed.1002002" class="uri">doi:10.1371/journal.pmed.1002002</a></p>
-<p><br></p>
-</div>
-<div id="section-2" class="section level3">
-<h3>2015</h3>
-<p><a href="http://ve.oxfordjournals.org/content/1/1/vev011">Brunker et al. (2015) Elucidating the phylodynamics of endemic rabies virus in eastern Africa using whole genome sequencing. Virus Evolution</a></p>
-<p><br></p>
-</div>
-<div id="section-3" class="section level3">
-<h3>2014</h3>
-<p><a href="http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003310">Sambo et al. (2014) Knowledge, Attitudes and Practices about rabies prevention and control: a community survey in Tanzania. PLoS NTDs</a></p>
-<p><a href="http://annals.org/article.aspx?articleid=1814425">Fitzpatrick et al. (2014) Cost-effectiveness of Canine Vaccination to Prevent Human Rabies in Rural Tanzania. Annals of Internal Medicine</a></p>
-<p><br></p>
-</div>
-<div id="section-4" class="section level3">
-<h3>2013</h3>
-<p><a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0002510">Sambo et al. (2013). The burden of rabies in Tanzania and its impacts on local communities. PLoS NTDs</a></p>
-<p><br></p>
-</div>
-<div id="section-5" class="section level3">
-<h3>2012</h3>
-<p><a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0001796">Fitzpatrick et al. (2012) Potential for rabies control through dog vaccination in wildlife-abundant communities of Tanzania. PLoS NTDs</a></p>
-<p><a href="https://wwwnc.cdc.gov/eid/article/18/4/11-1553">Marston et al. (2012) Ikoma Lyssavirus: Identification of a highly divergent novel lyssavirus in an African Civet. EID</a></p>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X11019876?via%3Dihub">Beyer et al. (2012) The implications of metapopulation dynamics on the design of rabies vaccination campaigns. Vaccine</a></p>
-<p><br></p>
-</div>
-<div id="section-6" class="section level3">
-<h3>2011</h3>
-<p><a href="http://rspb.royalsocietypublishing.org/content/278/1715/2182.long">Beyer et al. (2011) Metapopulation Dynamics of Rabies and the Efficacy of Vaccination. Proc Roy Soc B</a></p>
-<p><br></p>
-</div>
-<div id="and-earlier" class="section level3">
-<h3>2010 and earlier</h3>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X09013516?via%3Dihub">Shim et al. (2009) Evaluating the cost-effectiveness of rabies post-exposure prophylaxis: A case study in Tanzania. Vaccine</a></p>
-<p><a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000053">Hampson et al. (2009) Transmission dynamics and prospects for the elimination of canine rabies. PLoS Biology</a></p>
-<p><a href="https://www.sciencedirect.com/science/article/pii/S0264410X0801307">Kaare et al. (2009) Rabies Control in Rural Africa: Evaluation Strategies for Effective Domestic Dog Vaccination. Vaccine</a></p>
-<p><a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0000339">Hampson et al. (2008) Rabies exposures, post-exposure prophylaxis and deaths in a region of endemic canine rabies. PLoS NTDs</a></p>
-<p><a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2008.01468.x">Lembo, et al. (2008) Exploring reservoirs dynamics: a case study of rabies in the Serengeti ecosystem. Journal of Applied Ecology</a></p>
-<p><a href="https://veterinaryrecord.bmj.com/content/161/9/293">Cleaveland et al. (2007) Living with rabies in Africa. Vet Rec</a></p>
-<p><br></p>
-</div>
-<div id="book-chapters" class="section level3">
-<h3>Book Chapters</h3>
+<h1>
+Book Chapters
+</h1>
 <p>Knapp et al. (2015). Human Health in the Greater Serengeti Ecosystem. Chapter in Serengeti IV (Ed. Sinclair, A. R. E.).</p>
 <p>Craft et al. (2015). Carnivore communities in the Greater Serengeti Ecosystem. In: Sinclair, A. R. E. &amp; Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.</p>
 <p>Hampson et al. (2015). Living in the Greater Serengeti ecosystem: human-wildlife conflict and coexistence. In: Sinclair, A. R. E. &amp; Fryxell, J. (Eds). Serengeti IV: Sustaining biodiversity in a coupled human-natural system.</p>
@@ -452,8 +323,6 @@ Publications
 
 
 
-</div>
-</div>
 
 </div>
 
