@@ -36,6 +36,8 @@ navbar:
           href: https://rabiesresearch.shinyapps.io/shiny_hub/
         - text: "Ngorongoro District"
           href: https://rabiesresearch.github.io/Ngorongoro/
+        - text: "Philippines (SPEEDIER)"
+          href: https://rabiesresearch.github.io/SPEEDIER/
     # The contact.html script currently holds a link to email Katie Hampson
     - icon: fa-envelope fa-lg
       href: contact.html
