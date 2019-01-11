@@ -19,28 +19,31 @@ navbar:
           href: about_epi.html
         - text: "Publications"
           href: about_publications.html
-    - text: "Data"
+    - text: "Results"
       icon: fa-bar-chart
       menu:
         - text: "Dog Vaccination"
           href: data_vax.html
         - text: "Rabies Incidence"
           href: data_epi.html
-        - text: "Download"
+        - text: "Download Data"
           href: data_download.html
   # Arrange items on the right side of the navbar (social links)
   right:
-    - icon: fa-globe fa-lg
+    - text: "Related Projects"
+      icon: fa-globe fa-lg
       menu:
         - text: "Central Hub"
           href: https://rabiesresearch.shinyapps.io/shiny_hub/
+        - text: "--------"
         - text: "Ngorongoro District"
           href: https://rabiesresearch.github.io/Ngorongoro/
+        - text: "--------"
         - text: "Philippines (SPEEDIER)"
           href: https://rabiesresearch.github.io/SPEEDIER/
     # The contact.html script currently holds a link to email Katie Hampson
     - icon: fa-envelope fa-lg
-      href: contact.html
+      href: mailto:Katie.Hampson@glasgow.ac.uk
     # Currently links to the @RabidBites Twitter page
     - icon: fa-twitter fa-lg
       href: https://twitter.com/rabidbites
