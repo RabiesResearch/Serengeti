@@ -11,42 +11,41 @@ output: html_document
 
 <h1> Publications</h1>
 
-#### Publications that include research from Serengeti District are listed below:  
+<h5> Publications that include research from Ngorongoro District are listed below.  
+For more general papers to which we have contributed, please visit our <a href="https://rabiesresearch.shinyapps.io/shiny_hub/" target="blank">hub</a>.</h5> 
 
 <br>
 
-<a href="https://www.frontiersin.org/articles/10.3389/fvets.2017.00033/full" target="blank">Sambo et al. (2017)</a> Comparing methods of assessing dog rabies vaccination coverage in rural and urban communities in Tanzania, <em>Front Vet Sci</em>  
-  
-<a href="https://journals.plos.org/plosmedicine/article?id=10.1371%2Fjournal.pmed.1002002" target="blank">Mtema et al. (2016)</a> Mobile phones as surveillance tools: Implementing and evaluating a large-scale intersectoral surveillance system for rabies in Tanzania. <em>PLoS Medicine</em> 13(4)
-  
+<a href="https://www.frontiersin.org/articles/10.3389/fvets.2017.00033/full" target="blank">Sambo et al. (2017)</a> Comparing methods of assessing dog rabies vaccination coverage in rural and urban communities in Tanzania. <em>Front Vet Sci</em>  
+
+<a href="https://onlinelibrary.wiley.com/doi/full/10.1111/mec.14470" target="blank">Brunker et al. (2017)</a> Landscape attributes governing local transmission of an endemic zoonotic virus: rabies in domestic dogs. <em>Molecular Ecology</em>  
+
 <a href="http://ve.oxfordjournals.org/content/1/1/vev011" target="blank">Brunker et al. (2015)</a> Elucidating the phylodynamics of endemic rabies virus in eastern Africa using whole genome sequencing. <em>Virus Evolution</em>
-  
-<a href="http://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0003310" target="blank">Sambo et al. (2014)</a> Knowledge, Attitudes and Practices about rabies prevention and control: a community survey in Tanzania. <em>PLoS NTDs</em>  
-  
+
+<a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4321234/" target="blank">Viana et al. (2015)</a> Dynamics of a morbillivirus at the domestic-wildlife interface: Canine Distemper Virus in domestic dogs and lions. <em>PNAS</em>
+
 <a href="http://annals.org/article.aspx?articleid=1814425" target="blank">Fitzpatrick et al. (2014)</a> Cost-effectiveness of Canine Vaccination to Prevent Human Rabies in Rural Tanzania. <em>Annals of Internal Medicine</em>  
-  
-<a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0002510" target="blank">Sambo et al. (2013)</a> The burden of rabies in Tanzania and its impacts on local communities. PLoS NTDs
-  
+
 <a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0001796" target="blank">Fitzpatrick et al. (2012)</a> Potential for rabies control through dog vaccination in wildlife-abundant communities of Tanzania. <em>PLoS NTDs</em>  
-  
+
 <a href="https://wwwnc.cdc.gov/eid/article/18/4/11-1553" target="blank">Marston et al. (2012)</a> Ikoma Lyssavirus: Identification of a highly divergent novel lyssavirus in an African Civet. <em>EID</em>  
-  
+
 <a href="https://www.sciencedirect.com/science/article/pii/S0264410X11019876?via%3Dihub" target="blank">Beyer et al. (2012)</a> The implications of metapopulation dynamics on the design of rabies vaccination campaigns. <em>Vaccine</em>  
-  
-<a href="http://rspb.royalsocietypublishing.org/content/278/1715/2182.long" target="blank">Beyer et al. (2011)</a> Metapopulation Dynamics of Rabies and the Efficacy of Vaccination. <em>Proc Roy Soc B</em>    
-  
+
+<a href="http://rspb.royalsocietypublishing.org/content/278/1715/2182.long" target="blank">Beyer et al. (2011)</a> Metapopulation Dynamics of Rabies and the Efficacy of Vaccination. <em>Proc Roy Soc B</em>   
+
 <a href="https://www.sciencedirect.com/science/article/pii/S0264410X09013516?via%3Dihub" target="blank">Shim et al. (2009)</a> Evaluating the cost-effectiveness of rabies post-exposure prophylaxis: A case study in Tanzania. <em>Vaccine</em>
-  
+
 <a href="https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.1000053" target="blank">Hampson et al. (2009)</a> Transmission dynamics and prospects for the elimination of canine rabies. <em>PLoS Biology</em>
-  
+
 <a href="https://www.sciencedirect.com/science/article/pii/S0264410X0801307" target="blank">Kaare et al. (2009)</a> Rabies Control in Rural Africa: Evaluation Strategies for Effective Domestic Dog Vaccination. <em>Vaccine</em>  
-  
+
 <a href="https://journals.plos.org/plosntds/article?id=10.1371/journal.pntd.0000339" target="blank">Hampson et al. (2008)</a> Rabies exposures, post-exposure prophylaxis and deaths in a region of endemic canine rabies. <em>PLoS NTDs</em>  
-  
+
 <a href="https://besjournals.onlinelibrary.wiley.com/doi/abs/10.1111/j.1365-2664.2008.01468.x" target="blank">Lembo, et al. (2008)</a> Exploring reservoirs dynamics: a case study of rabies in the Serengeti ecosystem. <em>Journal of Applied Ecology</em>  
-  
+
 <a href="https://veterinaryrecord.bmj.com/content/161/9/293" target="blank">Cleaveland et al. (2007)</a> Living with rabies in Africa. <em>Vet Rec</em>  
-  
+
 <br>
 
 <h1>Book Chapters</h1>
