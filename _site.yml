@@ -21,6 +21,9 @@ navbar:
         - text: "--------"
         - text: "Publications"
           href: about_publications.html
+    - text: "Team"
+      icon: fa-users
+      href: proj_team.html
     - text: "Results"
       icon: fa-bar-chart
       menu:
