@@ -2,6 +2,10 @@
 title: ""
 ---
 
+<!--Add a loading bar!-->
+<script src="pace.js"></script>
+<link href="pace_loadbar_loading.css" rel="stylesheet" />
+
 <!--Create a block for title and breadcrumbs to appear on same line-->
 <div style="width: 100%; display: inline-block;">
 <div style="float: left;">

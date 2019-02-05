@@ -2,6 +2,11 @@
 title: ""
 ---
 
+<!--Add a loading bar!-->
+<script src="pace.js"></script>
+<link href="pace_loadbar_loading.css" rel="stylesheet" />
+
+<!--Begin page content!-->
 In Tanzania, we carry out research on rabies epidemiology, prevention and control. Our work in Tanzania has contributed to multi-country and global studies to inform policy and practice.
 
 This website provides information from long-term contact tracing and vaccination campaigns in Serengeti District, Northwest Tanzania.  
