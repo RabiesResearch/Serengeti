@@ -60,7 +60,7 @@ epi_plot(human_dataframe=human_epi_month, animal_dataframe=animal_epi_month,
 
 <hr class="hr-grey">
   
-<h3>Location of animal Rabies cases</h3>  
+### Location of animal Rabies cases  
   
 The map below shows the location of probable and lab-confirmed animal rabies cases traced in Serengeti District over the last five years.  This map excludes all bites where the rabies status is not suspect or cannot be determined; village centroids are used in the absence of coordinates. Select from the dropdown menu to view data from a specific year:  
 
