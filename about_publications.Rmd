@@ -3,14 +3,24 @@ title: ""
 output: html_document
 ---
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1>Publications</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
   <li class="breadcrumb-item"><a href="about_overview.html">Project Information</a></li>
   <li class="breadcrumb-item active">Publications</li>
 </ol>
+</div>
+</div>
+<hr class="hr-orange">
 
-<h1> Publications</h1>
-
+<br>
+  
+<!--Begin page content!-->
 <h5> Publications that include research from Ngorongoro District are listed below.  
 For more general papers to which we have contributed, please visit our <a href="https://rabiesresearch.shinyapps.io/shiny_hub/" target="blank">hub</a>.</h5> 
 

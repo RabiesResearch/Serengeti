@@ -201,14 +201,16 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="about_overview.html">Project Information</a>
+      <a href="about_overview.html">Background</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="about_vax.html">Rabies Control</a>
     </li>
     <li>
       <a href="about_epi.html">Rabies Epidemiology</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="about_publications.html">Publications</a>
     </li>
@@ -229,6 +231,7 @@ $(document).ready(function () {
     <li>
       <a href="data_epi.html">Rabies Incidence</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="data_download.html">Download Data</a>
     </li>
@@ -236,7 +239,19 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
+        <li>
+  <a href="mailto:Katie.Hampson@glasgow.ac.uk">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/rabidbites">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-globe fa-lg"></span>
      
@@ -258,18 +273,6 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
-<li>
-  <a href="mailto:Katie.Hampson@glasgow.ac.uk">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/rabidbites">
-    <span class="fa fa-twitter fa-lg"></span>
-     
-  </a>
-</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -283,6 +286,14 @@ $(document).ready(function () {
 </div>
 
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1>
+Data
+</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
 <li class="breadcrumb-item">
 <a href="index.html">Home</a>
@@ -291,8 +302,11 @@ $(document).ready(function () {
 Data
 </li>
 </ol>
-<div id="data" class="section level1">
-<h1>Data</h1>
+</div>
+</div>
+<hr class="hr-orange">
+<p><br></p>
+<!--Begin page content!-->
 <p>The data presented are intended to show the progress and impact of dog vaccination efforts in the district from 2002 to 2019.<br />
 A summary of the data can be downloaded below. If you use the summarised data please cite/acknowledge this website and the local government personnel in Tanzania who are delivering dog vaccinations.<br />
 Ongoing data collection continues as part of several PhD and postdoctoral studies. Please get in contact if you are interested in collaborating on more detailed data.</p>
@@ -302,7 +316,6 @@ Ongoing data collection continues as part of several PhD and postdoctoral studie
 <li><b>Probable human exposures:</b> the number of bite victims and probable Rabies exposures, the number of bite victims that sought care overall and by probable exposure, and the number of deaths that are the direct result of Rabies - <a href=output/Serengeti_human_Rabies_Incidence.csv>Download</a></li>
 </ul>
 <hr />
-</div>
 
 
 

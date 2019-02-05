@@ -201,14 +201,16 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="about_overview.html">Project Information</a>
+      <a href="about_overview.html">Background</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="about_vax.html">Rabies Control</a>
     </li>
     <li>
       <a href="about_epi.html">Rabies Epidemiology</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="about_publications.html">Publications</a>
     </li>
@@ -229,6 +231,7 @@ $(document).ready(function () {
     <li>
       <a href="data_epi.html">Rabies Incidence</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="data_download.html">Download Data</a>
     </li>
@@ -236,7 +239,19 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
+        <li>
+  <a href="mailto:Katie.Hampson@glasgow.ac.uk">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/rabidbites">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-globe fa-lg"></span>
      
@@ -258,18 +273,6 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
-<li>
-  <a href="mailto:Katie.Hampson@glasgow.ac.uk">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/rabidbites">
-    <span class="fa fa-twitter fa-lg"></span>
-     
-  </a>
-</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -283,6 +286,14 @@ $(document).ready(function () {
 </div>
 
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1>
+Rabies Control
+</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
 <li class="breadcrumb-item">
 <a href="index.html">Home</a>
@@ -294,8 +305,11 @@ $(document).ready(function () {
 Rabies Control
 </li>
 </ol>
-<div id="rabies-control" class="section level1">
-<h1>Rabies Control</h1>
+</div>
+</div>
+<hr class="hr-orange">
+<p><br></p>
+<!--Begin page content!-->
 <p>Worldwide, around 60,000 human rabies deaths occur annually. Although the virus is transmitted by a wide range of mammals, a large proportion of these deaths are from the bites of infected domestic dogs. Rabies can be effectively controlled by implementing high coverage and comprehensive dog vaccination programmes.</p>
 <p>Our team has supported the local government in Serengeti District in conducting domestic dog vaccination campaigns in Serengeti District since 2003, using a <a href="https://www.sciencedirect.com/science/article/pii/S0264410X08013078?via%3Dihub", target="blank">central point strategy</a>. Over this time period, we have increased the number of villages included in campaigns, and the number of dogs vaccinated.</p>
 <p><a href="data_vax.html">Click here</a> to view our data on dog vaccination campaigns, including maps of villages covered.</p>
@@ -313,7 +327,6 @@ Dog vaccination
 </div>
 </div>
 </center>
-</div>
 
 
 

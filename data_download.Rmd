@@ -2,13 +2,23 @@
 title: ""
 ---
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1>Data</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
   <li class="breadcrumb-item active">Data</li>
 </ol>
+</div>
+</div>
+<hr class="hr-orange">
 
-# Data  
+<br>
   
+<!--Begin page content!-->
 The data presented are intended to show the progress and impact of dog vaccination efforts in the district from 2002 to `r substr(Sys.Date(), 1,4)`.  
 A summary of the data can be downloaded below. If you use the summarised data please cite/acknowledge this website and the local government personnel in Tanzania who are delivering dog vaccinations.  
 Ongoing data collection continues as part of several PhD and postdoctoral studies. Please get in contact if you are interested in collaborating on more detailed data.  

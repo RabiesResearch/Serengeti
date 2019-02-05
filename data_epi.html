@@ -205,14 +205,16 @@ $(document).ready(function () {
   </a>
   <ul class="dropdown-menu" role="menu">
     <li>
-      <a href="about_overview.html">Project Information</a>
+      <a href="about_overview.html">Background</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="about_vax.html">Rabies Control</a>
     </li>
     <li>
       <a href="about_epi.html">Rabies Epidemiology</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="about_publications.html">Publications</a>
     </li>
@@ -233,6 +235,7 @@ $(document).ready(function () {
     <li>
       <a href="data_epi.html">Rabies Incidence</a>
     </li>
+    <li class="divider"></li>
     <li>
       <a href="data_download.html">Download Data</a>
     </li>
@@ -240,7 +243,19 @@ $(document).ready(function () {
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li class="dropdown">
+        <li>
+  <a href="mailto:Katie.Hampson@glasgow.ac.uk">
+    <span class="fa fa-envelope fa-lg"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://twitter.com/rabidbites">
+    <span class="fa fa-twitter fa-lg"></span>
+     
+  </a>
+</li>
+<li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
     <span class="fa fa-globe fa-lg"></span>
      
@@ -262,18 +277,6 @@ $(document).ready(function () {
     </li>
   </ul>
 </li>
-<li>
-  <a href="mailto:Katie.Hampson@glasgow.ac.uk">
-    <span class="fa fa-envelope fa-lg"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/rabidbites">
-    <span class="fa fa-twitter fa-lg"></span>
-     
-  </a>
-</li>
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -287,6 +290,14 @@ $(document).ready(function () {
 </div>
 
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1>
+Rabies Incidence
+</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
 <li class="breadcrumb-item">
 <a href="index.html">Home</a>
@@ -295,44 +306,44 @@ $(document).ready(function () {
 Rabies Incidence
 </li>
 </ol>
-<div id="rabies-incidence" class="section level1">
-<h1>Rabies Incidence</h1>
+</div>
+</div>
+<hr class="hr-orange">
 <p><br></p>
-<hr />
+<!--Begin page content!-->
 <div id="comparison-of-exposures-and-cases" class="section level3 tabset tabset-pills">
 <h3>Comparison of exposures and cases</h3>
 <div id="to-present" class="section level4">
 <h4>2002 to present</h4>
 <p><img src="data_epi_files/figure-html/unnamed-chunk-3-1.png" width="672" /></p>
-<hr />
+<hr class="hr-grey">
 </div>
 <div id="to-present-1" class="section level4">
 <h4>2012 to present</h4>
 <p><img src="data_epi_files/figure-html/unnamed-chunk-4-1.png" width="672" /></p>
-<hr />
-</div>
-</div>
-<div id="location-of-animal-rabies-cases" class="section level3">
-<h3>Location of animal Rabies cases</h3>
+<hr class="hr-grey">
+<h3>
+Location of animal Rabies cases
+</h3>
 <p>The map below shows the location of probable and lab-confirmed animal rabies cases traced in Serengeti District over the last five years. This map excludes all bites where the rabies status is not suspect or cannot be determined; village centroids are used in the absence of coordinates. Select from the dropdown menu to view data from a specific year:</p>
 
 <html>
-<select id="CaVBBDfWbP" class="selectpicker" data-dropdown-align-right="false" data-dropup-auto="true" data-header="false" data-live-search="false" data-live-search-style="contains" data-show-tick="true" data-width="false" data-size="auto" data-style="btn-primary"><option value="html/ser_epi_map_2018.html">2018</option>
+<select id="rFgd9Dnn19" class="selectpicker" data-dropdown-align-right="false" data-dropup-auto="true" data-header="false" data-live-search="false" data-live-search-style="contains" data-show-tick="true" data-width="false" data-size="auto" data-style="btn-primary"><option value="html/ser_epi_map_2018.html">2018</option>
 <option value="html/ser_epi_map_2017.html">2017</option>
 <option value="html/ser_epi_map_2016.html">2016</option>
 <option value="html/ser_epi_map_2015.html">2015</option>
 <option value="html/ser_epi_map_2014.html">2014</option></select>
-<iframe src="html/ser_epi_map_2018.html" frameborder="0" height="550" width="100%" id="kCmU9PXfqn"></iframe>
+<iframe src="html/ser_epi_map_2018.html" frameborder="0" height="550" width="100%" id="yXH9Knlqg1"></iframe>
 <script>$(document).ready(function(){
-                   $("#CaVBBDfWbP").change(function(){
-                   $("#kCmU9PXfqn").attr("src",$(this).val());
+                   $("#rFgd9Dnn19").change(function(){
+                   $("#yXH9Knlqg1").attr("src",$(this).val());
 
                    });
 
     });</script>
 </html>
-<div id="htmlwidget-0f555661a9d67da71899" style="width:672px;height:0px;" class="bsselect html-widget" width="672" height="0"></div>
-<script type="application/json" data-for="htmlwidget-0f555661a9d67da71899">{"x":[],"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-97613f295bb22fc359cd" style="width:672px;height:0px;" class="bsselect html-widget" width="672" height="0"></div>
+<script type="application/json" data-for="htmlwidget-97613f295bb22fc359cd">{"x":[],"evals":[],"jsHooks":[]}</script>
 </div>
 </div>
 

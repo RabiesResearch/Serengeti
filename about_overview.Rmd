@@ -2,15 +2,25 @@
 title: ""
 ---
 
-<!--Add breadcrumbs to top of page-->
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1>Project Information</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
   <li class="breadcrumb-item active">Project Information</li>
 </ol>
+</div>
+</div>
+<hr class="hr-orange">
+
+<br>
+
+<!--Begin page content!-->
 
 <!--Page section with map image and project info-->
-# Project Information
-
 <div style="display: inline-block; ">
 
 <img src="img/ser_map.png" class= "map_image"/>

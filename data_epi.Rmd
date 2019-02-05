@@ -2,14 +2,23 @@
 title: ""
 ---
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1>Rabies Incidence</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
   <li class="breadcrumb-item active">Rabies Incidence</li>
 </ol>
-
-# Rabies Incidence  
+</div>
+</div>
+<hr class="hr-orange">
 
 <br>
+  
+<!--Begin page content!-->
 
 ```{r, echo=FALSE, include=FALSE, message=FALSE, warning=FALSE}
 script_district = "Serengeti"
@@ -30,11 +39,9 @@ y_axis_max_2002 <- find_y_max(human_dataframe=human_epi_month, animal_dataframe=
 y_axis_max_2012 <- find_y_max(human_dataframe=human_epi_month, animal_dataframe=animal_epi_month, start_month=start_month_2, type="epi")
 ```
   
-*** 
-
-### Comparison of exposures and cases {.tabset .tabset-pills}  
+### Comparison of exposures and cases {.tabset .tabset-pills}   
   
-#### 2002 to present
+#### 2002 to present  
 ``` {r, echo=FALSE}
 epi_plot(human_dataframe=human_epi_month, animal_dataframe=animal_epi_month,
          district=script_district, start_date=start_date_1, start_month=start_month_1,
@@ -42,18 +49,18 @@ epi_plot(human_dataframe=human_epi_month, animal_dataframe=animal_epi_month,
          end_date=end_date, max_y=y_axis_max_2002)
 ```
 
-***  
+<hr class="hr-grey">
   
-#### 2012 to present
+#### 2012 to present  
 ``` {r, echo=FALSE}
 epi_plot(human_dataframe=human_epi_month, animal_dataframe=animal_epi_month, 
          district=script_district, start_date=start_date_2, start_month=start_month_2,
          end_date=end_date, max_y=y_axis_max_2012)
 ```
 
-***  
+<hr class="hr-grey">
   
-### Location of animal Rabies cases  
+<h3>Location of animal Rabies cases</h3>  
   
 The map below shows the location of probable and lab-confirmed animal rabies cases traced in Serengeti District over the last five years.  This map excludes all bites where the rabies status is not suspect or cannot be determined; village centroids are used in the absence of coordinates. Select from the dropdown menu to view data from a specific year:  
 

@@ -2,18 +2,25 @@
 title: ""
 ---
 
+<!--Create a block for title and breadcrumbs to appear on same line-->
+<div style="width: 100%; display: inline-block;">
+<div style="float: left;">
+<h1>Dog Vaccination</h1>
+</div>
+<div style="float: right;">
 <ol class="breadcrumb" style="background-color:white;">
   <li class="breadcrumb-item"><a href="index.html">Home</a></li>
   <li class="breadcrumb-item active">Dog Vaccination</li>
 </ol>
-
-# Dog Vaccination
+</div>
+</div>
+<hr class="hr-orange">
 
 <br>
+  
+<!--Begin page content!-->  
 
-***  
-
-### Data {.tabset .tabset-pills}  
+### Data {.tabset .tabset-pills}    
   
 #### Serengeti: 2002 - present (annual)  
 ```{r, echo=FALSE, warning=FALSE}
@@ -24,9 +31,9 @@ dog_vac_barplot(dataframe=dog_vacc_data, type="all", start_date=start_date, end_
   
 <br>
   
-*** 
+<hr class="hr-grey">
 
-#### Serengeti: 2015 - present (monthly)  
+#### Serengeti: 2015 - present (monthly)    
 ```{r, echo=FALSE, warning=FALSE}
 start_date <- "2014-12-31"
 end_date <- Sys.Date()
@@ -36,9 +43,9 @@ dog_vac_barplot(dataframe=dog_vacc_data_subset, type="subset", start_date=start_
 
 <br>
 
-***
+<hr class="hr-grey">
 
-### Village-level Vaccination Coverage  
+<h3>Village-level Vaccination Coverage</h3>  
   
 The map details villages that were vaccinated (1 or more times) in Serengeti District from 2014-2018; where villages were visited multiple times in the same year, the date and Kitongoji (sub-village) are given. Select from the dropdown menu to view a specific year:  
 
