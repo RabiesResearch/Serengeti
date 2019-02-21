@@ -24,4 +24,55 @@ title: ""
 
 <!--Begin page content!-->
 
-<em><p class="text-primary">Team details coming soon. </p></em>
+<em><p style="text-align: center;">Listed alphabetically </p></em>
+
+<br>
+
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/anna_c2.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Dr. Anna Czupryna</b><br><br><em>Postdoctoral Research Assistant</em>
+</div>
+</div>
+</div><div class="hvrbox hvrbox_background" style="background-image: url(img/team/elaine_f2.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Dr. Elaine Ferguson</b><br><br><em>Postdoctoral Research Assistant</em>
+</div>
+</div>
+</div>
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Renatus Herman</b><br><br><em>Project Driver</em>
+</div>
+</div>
+</div>
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/ahmed_l.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Ahmed Lugelo</b><br><br><em>Afrique-ONE ASPIRE PhD Student</em>
+</div>
+</div>
+</div>
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/maganga_s2.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Maganga Sambo</b><br><br><em>PhD Student, University of Glasgow</em>
+</div>
+</div>
+</div>
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Christian Tetteh Duamor</b><br><br><em>Afrique-ONE ASPIRE PhD Student</em>
+</div>
+</div>
+</div>
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/matiko_t.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Matiko Tiringa</b><br><br><em>Project Field Officer</em>
+</div>
+</div>
+</div>

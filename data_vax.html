@@ -26,9 +26,8 @@
 <link href="site_libs/bootstrap-select-1.12.1/dist/css/bootstrap-select.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-select-1.12.1/dist/js/bootstrap-select.min.js"></script>
 <script src="site_libs/bsselect-binding-0.1.0/bsselect.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <div class="alert alert-dismissible alert-primary" style="margin-top: 5px; padding: 5px; width: 70%; border: 1px solid #D94801; margin-left: auto; margin-right: auto; background-color: rgba(253,141,60,0.2);">
   <button type="button" class="close" data-dismiss="alert">&times;</button>
   <center><em>
@@ -110,6 +109,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -124,7 +126,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -144,6 +145,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -165,18 +203,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -341,22 +438,22 @@ Dog Vaccination
 <p>The map details villages that were vaccinated (1 or more times) in Serengeti District from 2014-2018; where villages were visited multiple times in the same year, the date and Kitongoji (sub-village) are given. Select from the dropdown menu to view a specific year:</p>
 
 <html>
-<select id="LShuoKfpCF" class="selectpicker" data-dropdown-align-right="false" data-dropup-auto="true" data-header="false" data-live-search="false" data-live-search-style="contains" data-show-tick="true" data-width="false" data-size="auto" data-style="btn-primary"><option value="html/ser_vacc_map_2018.html">2018</option>
+<select id="4UBJiu9ODM" class="selectpicker" data-dropdown-align-right="false" data-dropup-auto="true" data-header="false" data-live-search="false" data-live-search-style="contains" data-show-tick="true" data-width="false" data-size="auto" data-style="btn-primary"><option value="html/ser_vacc_map_2018.html">2018</option>
 <option value="html/ser_vacc_map_2017.html">2017</option>
 <option value="html/ser_vacc_map_2016.html">2016</option>
 <option value="html/ser_vacc_map_2015.html">2015</option>
 <option value="html/ser_vacc_map_2014.html">2014</option></select>
-<iframe src="html/ser_vacc_map_2018.html" frameborder="0" height="550" width="100%" id="OElmPK1kQN"></iframe>
+<iframe src="html/ser_vacc_map_2018.html" frameborder="0" height="550" width="100%" id="pzasyf8Pu5"></iframe>
 <script>$(document).ready(function(){
-                   $("#LShuoKfpCF").change(function(){
-                   $("#OElmPK1kQN").attr("src",$(this).val());
+                   $("#4UBJiu9ODM").change(function(){
+                   $("#pzasyf8Pu5").attr("src",$(this).val());
 
                    });
 
     });</script>
 </html>
-<div id="htmlwidget-855d04812370fb8049c1" style="width:672px;height:0px;" class="bsselect html-widget" width="672" height="0"></div>
-<script type="application/json" data-for="htmlwidget-855d04812370fb8049c1">{"x":[],"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-99c10c0ab15507ad8e13" style="width:672px;height:0px;" class="bsselect html-widget" width="672" height="0"></div>
+<script type="application/json" data-for="htmlwidget-99c10c0ab15507ad8e13">{"x":[],"evals":[],"jsHooks":[]}</script>
 </div>
 
 
