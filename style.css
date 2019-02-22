@@ -90,7 +90,7 @@ a:hover {
 }
 
 .hr-grey {
-  border: 0.5px dotted #c7c7c7;
+  border: 0.5px dotted black;/* #c7c7c7 */
 }
 
 .clearfix:after {
