@@ -30,7 +30,8 @@ title: ""
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/anna_c2.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Dr. Anna Czupryna</b><br><em>Postdoctoral Research Assistant</em></p><br>
+<b>Dr. Anna Czupryna</b><br><em>Postdoctoral Research Assistant</em><br>
+<a href="https://twitter.com/AnnaSerengeti", target="_blank", class="text-primary"><i class="fab fa-twitter fa-2x"></i></a><br>
 Anna is currently working with the field team in Mugumu, coordinating data collection, dog vaccination, and research protocols, as well as developing training programs for village rabies coordinators.
 </div>
 </div>
@@ -39,7 +40,8 @@ Anna is currently working with the field team in Mugumu, coordinating data colle
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Christian Tetteh Duamor</b><br><em>Afrique-ONE ASPIRE PhD Student</em></p><br>
+<b>Christian Tetteh Duamor</b><br><em>Afrique-ONE ASPIRE PhD Student</em><br>
+<a href="https://twitter.com/duamort", target="_blank", class="text-primary"><i class="fab fa-twitter fa-2x"></i></a><br>
 Christian's PhD focuses on building expertise in Community-Led models for delivering and evaluating health interventions. He is currently conducting process evaluation on on-going trials in Mara Region of Tanzania, to determine effective methods of delivering community-based mass dog vaccination campaigns against Rabies.
 </div>
 </div>
@@ -48,7 +50,8 @@ Christian's PhD focuses on building expertise in Community-Led models for delive
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/elaine_f2.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Dr. Elaine Ferguson</b><br><em>Postdoctoral Research Assistant</em></p><br>
+<b>Dr. Elaine Ferguson</b><br><em>Postdoctoral Research Assistant</em><br>
+<a href="https://twitter.com/ElaineAFerguson", target="_blank", class="text-primary"><i class="fab fa-twitter fa-2x"></i></a><br>
 Elaine uses Rabies incidence, dog bite and vaccinaion data to inform statistical analyses and computational models of rabies dynamics. This work seeks to assess/predict the impact of control efforts on rabies incidence across different landscapes, and to aid the design of control strategies that efficiently eliminate rabies.
 </div>
 </div>
@@ -57,7 +60,8 @@ Elaine uses Rabies incidence, dog bite and vaccinaion data to inform statistical
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Dr. Katie Hampson</b><br><em></em></p>
+<b>Dr. Katie Hampson</b><br><em></em><br>
+<a href="https://twitter.com/hampson_katie", target="_blank", class="text-primary"><i class="fab fa-twitter fa-2x"></i></a><br>
 </div>
 </div>
 </div>
@@ -65,7 +69,7 @@ Elaine uses Rabies incidence, dog bite and vaccinaion data to inform statistical
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Renatus Herman</b><br><em>Project Driver</em></p>
+<b>Renatus Herman</b><br><em>Project Driver</em><br>
 </div>
 </div>
 </div>
@@ -73,7 +77,8 @@ Elaine uses Rabies incidence, dog bite and vaccinaion data to inform statistical
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/ahmed_l.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Ahmed Lugelo</b><br><em>AO ASPIRE PhD Student</em></p><br>
+<b>Ahmed Lugelo</b><br><em>AO ASPIRE PhD Student</em><br>
+<a href="https://twitter.com/alugelo", target="_blank", class="text-primary"><i class="fab fa-twitter fa-2x"></i></a><br>
 Ahmed's PhD focuses on the development of a cost-effective and sustainable strategy for regional elimination of Rabies. This involves trials to determine the the potency of thermotolerant rabies vaccine when stored in 'Temperature Controlled Storage Devices' (TCSD), and evaluation of the vaccination coverage achieved by various strategies.
 </div>
 </div>
@@ -82,7 +87,8 @@ Ahmed's PhD focuses on the development of a cost-effective and sustainable strat
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/maganga_s2.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Maganga Sambo</b><br><em>PhD Student</em></p><br>
+<b>Maganga Sambo</b><br><em>PhD Student</em><br>
+<a href="https://twitter.com/MagangaSambo", target="_blank", class="text-primary"><i class="fab fa-twitter fa-2x"></i></a><br>
 Maganga's PhD focuses on measuring, monitoring and improving mass dog vaccination programmes to inform control and eliminate rabies.This involves comparing post-vaccination evaluation strategies to evaluate which methods provide precise estimates of vaccination coverage and dog population sizes.
 </div>
 </div>
@@ -91,7 +97,7 @@ Maganga's PhD focuses on measuring, monitoring and improving mass dog vaccinatio
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/matiko_t.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Matiko Tiringa</b><br><em>Project Field Officer</em></p><br>
+<b>Matiko Tiringa</b><br><em>Project Field Officer</em><br><br>
 Matiko is responsible for collecting data on suspect Rabies exposures (human) and cases (animal), using hospital records and contact tracing. Matiko also collects and processes tissue samples from recently deceased probable Rabid animals.
 </div>
 </div>
