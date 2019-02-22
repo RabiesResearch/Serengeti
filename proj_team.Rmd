@@ -57,7 +57,7 @@ Elaine uses Rabies incidence, dog bite and vaccinaion data to inform statistical
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<b>Dr. Katie Hampson</b><br><br><em></em>
+<p style="font-size: 13px;"><b>Dr. Katie Hampson</b><br><em></em></p>
 </div>
 </div>
 </div>
@@ -65,7 +65,7 @@ Elaine uses Rabies incidence, dog bite and vaccinaion data to inform statistical
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<b>Renatus Herman</b><br><br><em>Project Driver</em>
+<p style="font-size: 13px;"><b>Renatus Herman</b><br><em>Project Driver</em></p>
 </div>
 </div>
 </div>
