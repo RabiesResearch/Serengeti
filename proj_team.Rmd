@@ -53,6 +53,14 @@ Elaine uses Rabies incidence, dog bite and vaccinaion data to inform statistical
 </div>
 </div>
 </div>
+<!--Katie!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Dr. Katie Hampson</b><br><br><em></em>
+</div>
+</div>
+</div>
 <!--Rena!-->
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/no_pic.jpg);">
 <div class="hvrbox-layer_top">
@@ -74,7 +82,7 @@ Ahmed's PhD focuses on the development of a cost-effective and sustainable strat
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/maganga_s2.jpg);">
 <div class="hvrbox-layer_top">
 <div class="hvrbox-text">
-<p style="font-size: 13px;"><b>Maganga Sambo</b><br><em>PhD Student, University of Glasgow</em></p><br>
+<p style="font-size: 13px;"><b>Maganga Sambo</b><br><em>PhD Student</em></p><br>
 Maganga's PhD focuses on measuring, monitoring and improving mass dog vaccination programmes to inform control and eliminate rabies.This involves comparing post-vaccination evaluation strategies to evaluate which methods provide precise estimates of vaccination coverage and dog population sizes.
 </div>
 </div>
