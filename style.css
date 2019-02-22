@@ -6,6 +6,10 @@ a:hover {
   text-decoration: none;
 }
 
+.breadcrumb >.active {
+   color: black;
+}
+
 .gallery_2 {
   position: relative;
   float: left;
