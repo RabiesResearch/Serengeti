@@ -6,9 +6,40 @@ a:hover {
   text-decoration: none;
 }
 
+.navbar {
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+}
+
+/* Add a top margin to avoid content overlay */
+.main {
+  margin-top: 30px;
+}
+
+.hr-orange {
+  border: 2px solid #DE4815;
+}
+
+.hr-grey {
+  border: 0.5px dotted black;/* #c7c7c7 */
+}
+
+/* Format Footer element */
+.footer {
+   position:fixed;
+   left: 0;
+   bottom: 0;
+   height: 5px;
+   width: 100%;
+   background: #DE4815;
+}
+
 .breadcrumb >.active {
    color: black;
 }
+
+/* ------------------------------------------------------------------------- */
+/* Add gallery coding */
 
 .gallery_2 {
   position: relative;
@@ -73,24 +104,6 @@ a:hover {
     width: 30%; float: right; padding: 0 20px 20px 0; vertical-align: middle; }
     .map_text {
     width: 70%; float: left; vertical-align: middle; margin: auto 0; }
-}
-
-.navbar {
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-}
-
-/* Add a top margin to avoid content overlay */
-.main {
-  margin-top: 30px;
-}
-
-.hr-orange {
-  border: 2px solid #D94801;
-}
-
-.hr-grey {
-  border: 0.5px dotted black;/* #c7c7c7 */
 }
 
 .clearfix:after {
