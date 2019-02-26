@@ -21,9 +21,6 @@ navbar:
         - text: "--------"
         - text: "Publications"
           href: about_publications.html
-    - text: "Team"
-      icon: fa-users
-      href: proj_team.html
     - text: "Results"
       icon: fa-bar-chart
       menu:
@@ -34,6 +31,14 @@ navbar:
         - text: "--------"
         - text: "Download Data"
           href: data_download.html
+    - text: "Team"
+      icon: fa-users
+      href: proj_team.html
+    - text: "Gallery"
+      icon: fa-camera
+      href: proj_gallery.html
+
+
   # Arrange items on the right side of the navbar (social links)
   right:
     - icon: fa-envelope fa-lg
