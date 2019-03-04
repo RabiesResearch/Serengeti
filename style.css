@@ -265,7 +265,7 @@ a:hover {
 }
 
 /* Hide the slides by default */
-.mySlides {
+.mySlides1 .mySlides2 .mySlides3 {
   display: none;
 }
 
@@ -316,17 +316,13 @@ a:hover {
   padding: 2px ;
 }
 
-img.demo {
+.demo1 .demo2 .demo3 {
   opacity: 1;
   cursor: pointer; /* Mouse pointer on hover */
 }
 
 .active {
   opacity: 0.8;
-}
-
-img.hover-shadow {
-  transition: 0.3s;
 }
 
 .hover-shadow {
