@@ -94,8 +94,8 @@ title: ""
 
 <!-- The Modal/Lightbox -->
 <div id="myModal1" class="modal">
-<span class="close_modal cursor" onclick="closeModal1()">&times;</span>
 <div class="modal-content">
+<span class="close_modal cursor" onclick="closeModal1()">&times;</span>
 
 <!-- Images in Lightbox -->
 <div class="mySlides1">
@@ -185,8 +185,8 @@ title: ""
 
 <!-- The Modal/Lightbox -->
 <div id="myModal2" class="modal">
-<span class="close_modal cursor" onclick="closeModal2()">&times;</span>
 <div class="modal-content">
+<span class="close_modal cursor" onclick="closeModal2()">&times;</span>
 
 <!-- Images in Lightbox -->
 <div class="mySlides2">
@@ -241,8 +241,8 @@ title: ""
 
 <!-- The Modal/Lightbox -->
 <div id="myModal3" class="modal">
-<span class="close_modal cursor" onclick="closeModal3()">&times;</span>
 <div class="modal-content">
+<span class="close_modal cursor" onclick="closeModal3()">&times;</span>
 
 <!-- Images in Lightbox -->
 <div class="mySlides3">
