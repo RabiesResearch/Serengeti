@@ -228,13 +228,13 @@ title: ""
 <!-- Images used to open the lightbox -->
 <div class="row">
 <div class="column">
-<img src="img/gallery/TZimg_Lab36.jpg" onclick="openModal3();currentSlide3(1)" class="demo2 hover-shadow" alt="">
+<img src="img/gallery/TZimg_Lab36.jpg" onclick="openModal3();currentSlide3(1)" class="demo3 hover-shadow" alt="">
 </div>
 <div class="column">
-<img src="img/gallery/TZimg_Lab41.jpg" onclick="openModal3();currentSlide3(2)" class="demo2 hover-shadow" alt="">
+<img src="img/gallery/TZimg_Lab41.jpg" onclick="openModal3();currentSlide3(2)" class="demo3 hover-shadow" alt="">
 </div>
 <div class="column">
-<img src="img/gallery/TZimg_Lab39.jpg" onclick="openModal3();currentSlide3(3)" class="demo2 hover-shadow" alt="">
+<img src="img/gallery/TZimg_Lab39.jpg" onclick="openModal3();currentSlide3(3)" class="demo3 hover-shadow" alt="">
 </div>
 
 </div> <!-- End Gallery -->
