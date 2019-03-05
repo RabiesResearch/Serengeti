@@ -3,6 +3,10 @@ title: ""
 ---
 
 <!-- ---------------------------------------------------------------------- --!>
+<!--Set page title!-->
+<title>Serengeti: Project Gallery</title>
+
+<!-- ---------------------------------------------------------------------- --!>
 <!--Add javascript section for tabbed sections!-->
 <script src="tabs.js"></script>
 <body onload="document.getElementById('defaultOpen').click();">
