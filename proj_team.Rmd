@@ -83,6 +83,16 @@ Elaine uses Rabies incidence, dog bite and vaccinaion data to inform statistical
 </div>
 </div>
 </div>
+<!--Husna!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/husna_h2.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Husna Hoffu</b><br><em>Research Officer</em><br>
+<a href="https://twitter.com/husnahoffu", target="_blank", class="text-primary"><i class="fab fa-twitter fa-2x"></i></a><br>
+Husna works under the Rabies Elimination Fellowship (REF) project at Ifkara Health Institute. This involves using mobile surveillance systems to report rabid cases and exposures. Husna works closely with Health Workers and Veterinary Officers, so as to link cases reported in the community and at health facility level.
+</div>
+</div>
+</div>
 <!--Ahmed!-->
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/ahmed_l.jpg);">
 <div class="hvrbox-layer_top">
