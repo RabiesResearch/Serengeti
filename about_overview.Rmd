@@ -51,7 +51,8 @@ Full details of our publications are on google scholar. Links to publications fr
 
 Our work is generously supported by many organizations. If you would like more information, we can be contacted via the links at the top-right.    
 
-<img src="img/funders_partners_banner.jpg" style="width:600px;"/>  
+<img src="img/ser_banner2.jpg" style="width: 650px;"/>  
 
 </center>
+<br>
 </div>
