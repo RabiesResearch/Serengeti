@@ -137,5 +137,19 @@ Matiko is responsible for collecting data on suspect Rabies exposures (human) an
 </div>
 
 <br><br>
-<center><em>The main team is supported by a number of Paravets and Health Workers</em></center>
-<br><br>
+<hr class="hr-grey">
+<br>
+<center><em>This team is also supported by a number of Paravets, Veterinary Officers and Health Workers</em></center>
+<br>
+
+<center>
+<div class="clearfix">
+<div class="gallery_2">
+  <img src="img/team/Communities/DSC_0519.JPG" />
+</div>
+<div class="gallery_2">
+  <img src="img/team/Communities/DSC_0454.JPG" />
+</div>
+</div>
+</center>
+<br>
