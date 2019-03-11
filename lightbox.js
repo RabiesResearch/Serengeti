@@ -1,5 +1,5 @@
 // ----------------------------------------------------------------------------
-// LIGHTBBOX 1 - VACCINATION (12 PHOTOS)
+// LIGHTBBOX 1 - VACCINATION (9 PHOTOS)
 
 // Open the Modal
 function openModal1() {
@@ -27,12 +27,12 @@ function currentSlide1(n) {
 // Select slides
 function showSlides1(n) {
   var First_slide1 = 1;
-  var Last_slide1 = 12;
+  var Last_slide1 = 9;
   var i1;
   var slides1 = document.getElementsByClassName("mySlides1");
   var dots1 = document.getElementsByClassName("demo1");
   var captionText1 = document.getElementById("caption1");
-  if (n > Last_slide1 & n < 100) {slideIndex1 = First_slide1} // slides.length
+  if (n > Last_slide1) {slideIndex1 = First_slide1} // slides.length
   if (n < First_slide1) {slideIndex1 = Last_slide1} // slides.length
   for (i1 = 0; i1 < Last_slide1; i1++) { // slides.length
       slides1[i1].style.display = "none";

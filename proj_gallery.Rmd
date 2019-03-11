@@ -84,16 +84,7 @@ title: ""
 <img src="img/gallery/TZimg_Vax23.JPG" onclick="openModal1();currentSlide1(8)" class="demo1 hover-shadow" alt="">
 </div>
 <div class="column">
-<img src="img/gallery/TZimg_Vax24.JPG" onclick="openModal1();currentSlide1(9)" class="demo1 hover-shadow" alt="">
-</div>
-<div class="column">
-<img src="img/gallery/TZimg_Vax26.JPG" onclick="openModal1();currentSlide1(10)" class="demo1 hover-shadow" alt="">
-</div>
-<div class="column">
-<img src="img/gallery/TZimg_Vax28.JPG" onclick="openModal1();currentSlide1(11)" class="demo1 hover-shadow" alt="">
-</div>
-<div class="column">
-<img src="img/gallery/TZimg_Vax30.JPG" onclick="openModal1();currentSlide1(12)" class="demo1 hover-shadow" alt="">
+<img src="img/gallery/TZimg_Vax30.JPG" onclick="openModal1();currentSlide1(9)" class="demo1 hover-shadow" alt="">
 </div>
 
 </div> <!-- End Gallery -->
@@ -105,51 +96,39 @@ title: ""
 
 <!-- Images in Lightbox -->
 <div class="mySlides1">
-<div class="numbertext">1 / 12</div>
+<div class="numbertext">1 / 9</div>
 <img src="img/gallery/TZimg_Vax1.jpg" class="modal-img-resp">
 </div>
 <div class="mySlides1">
-<div class="numbertext">2 / 12</div>
+<div class="numbertext">2 / 9</div>
 <img src="img/gallery/TZimg_Vax3.jpg" class="modal-img-resp">
 </div>
 <div class="mySlides1">
-<div class="numbertext">3 / 12</div>
+<div class="numbertext">3 / 9</div>
 <img src="img/gallery/TZimg_Vax4.jpg" class="modal-img-resp">
 </div>
 <div class="mySlides1">
-<div class="numbertext">4 / 12</div>
+<div class="numbertext">4 / 9</div>
 <img src="img/gallery/TZimg_Vax5.jpg" class="modal-img-resp">
 </div>
 <div class="mySlides1">
-<div class="numbertext">5 / 12</div>
+<div class="numbertext">5 / 9</div>
 <img src="img/gallery/TZimg_Vax6.jpg" class="modal-img-resp">
 </div>
 <div class="mySlides1">
-<div class="numbertext">6 / 12</div>
+<div class="numbertext">6 / 9</div>
 <img src="img/gallery/TZimg_Vax20.JPG" class="modal-img-resp">
 </div>
 <div class="mySlides1">
-<div class="numbertext">7 / 12</div>
+<div class="numbertext">7 / 9</div>
 <img src="img/gallery/TZimg_Vax22.JPG" class="modal-img-resp">
 </div>
 <div class="mySlides1">
-<div class="numbertext">8 / 12</div>
+<div class="numbertext">8 / 9</div>
 <img src="img/gallery/TZimg_Vax23.JPG" class="modal-img-resp">
 </div>
 <div class="mySlides1">
-<div class="numbertext">9 / 12</div>
-<img src="img/gallery/TZimg_Vax24.JPG" class="modal-img-resp">
-</div>
-<div class="mySlides1">
-<div class="numbertext">10 / 12</div>
-<img src="img/gallery/TZimg_Vax26.JPG" class="modal-img-resp">
-</div>
-<div class="mySlides1">
-<div class="numbertext">11 / 12</div>
-<img src="img/gallery/TZimg_Vax28.JPG" class="modal-img-resp">
-</div>
-<div class="mySlides1">
-<div class="numbertext">12 / 12</div>
+<div class="numbertext">9 / 9</div>
 <img src="img/gallery/TZimg_Vax30.JPG" class="modal-img-resp">
 </div>
 
