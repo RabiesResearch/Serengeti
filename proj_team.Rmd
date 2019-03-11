@@ -125,6 +125,16 @@ Maganga's PhD focuses on measuring, monitoring and improving mass dog vaccinatio
 </div>
 </div>
 </div>
+<!--Rachel!-->
+<div class="hvrbox hvrbox_background" style="background-image: url(img/team/rachel_s.jpg);">
+<div class="hvrbox-layer_top">
+<div class="hvrbox-text">
+<b>Rachel Steenson</b><br><em>Research Assistant</em><br>
+<a href="https://twitter.com/RachelSSteenson", target="_blank", class="text-primary"><i class="fab fa-twitter fa-2x"></i></a><br>
+Rachel develops code pipelines to clean, process, analyse and visualise project data, in addition to fixing issues in the raw data. Rachel created this website series, and is responsible for their maintenance.
+</div>
+</div>
+</div>
 <!--Matiko!-->
 <div class="hvrbox hvrbox_background" style="background-image: url(img/team/matiko_t.jpg);">
 <div class="hvrbox-layer_top">

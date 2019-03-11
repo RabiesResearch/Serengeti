@@ -3,12 +3,6 @@ title: ""
 ---
 
 <!-- ---------------------------------------------------------------------- --!>
-<!--Set page title!-->
-<head>
-<title>Serengeti: Project Gallery</title>
-</head>
-
-<!-- ---------------------------------------------------------------------- --!>
 <!--Add javascript section for tabbed sections!-->
 <script src="tabs.js"></script>
 <body onload="document.getElementById('defaultOpen').click();">
@@ -25,6 +19,7 @@ title: ""
 <!-- ---------------------------------------------------------------------- --!>
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
 <!-- ---------------------------------------------------------------------- --!>
 <!--Create a block for title and breadcrumbs to appear on same line-->
 <div style="width: 100%; display: inline-block;">
