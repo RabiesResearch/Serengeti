@@ -93,7 +93,7 @@ function showSlides2(n) {
 }
 
 // ----------------------------------------------------------------------------
-// LIGHTBBOX 3 - LAB ANALYSIS (3 PHOTOS)
+// LIGHTBBOX 3 - LAB ANALYSIS (4 PHOTOS)
 
 // Open the Modal
 function openModal3() {
@@ -121,7 +121,7 @@ function currentSlide3(n) {
 // Select slides
 function showSlides3(n) {
   var First_slide3 = 1;
-  var Last_slide3 = 3;
+  var Last_slide3 = 4;
   var i3;
   var slides3 = document.getElementsByClassName("mySlides3");
   var dots3 = document.getElementsByClassName("demo3");
@@ -140,7 +140,7 @@ function showSlides3(n) {
 }
 
 // ----------------------------------------------------------------------------
-// LIGHTBBOX 4 - TRAINING & CONFERENCES (3 PHOTOS)
+// LIGHTBBOX 4 - TRAINING & CONFERENCES (9 PHOTOS)
 
 // Open the Modal
 function openModal4() {
@@ -168,7 +168,7 @@ function currentSlide4(n) {
 // Select slides
 function showSlides4(n) {
   var First_slide4 = 1;
-  var Last_slide4 = 3;
+  var Last_slide4 = 9;
   var i4;
   var slides4 = document.getElementsByClassName("mySlides4");
   var dots4 = document.getElementsByClassName("demo4");
