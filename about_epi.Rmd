@@ -42,3 +42,5 @@ Rabies incidence has been estimated through exhaustive contact tracing in Sereng
   <div class="caption">Tissue sample processing</div>
 </div>
 </center>
+
+<br><br>
