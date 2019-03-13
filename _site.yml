@@ -6,7 +6,9 @@ navbar:
   title: "Serengeti Rabies Research"
   # Arrange items on the left side of the navbar (to the right of the title)
   # type: inverse # Changes theme colour to purple
-  left:
+
+  # Arrange items on the right side of the navbar (social links)
+  right:
     - text: "Home"
       href: index.html # The page that will appear when the name on the navbar is clicked
     - text: "About"
@@ -37,15 +39,6 @@ navbar:
     - text: "Gallery"
       icon: fa-camera
       href: proj_gallery.html
-
-
-  # Arrange items on the right side of the navbar (social links)
-  right:
-    - icon: fa-envelope fa-lg
-      href: mailto:Katie.Hampson@glasgow.ac.uk
-    # Currently links to the @RabidBites Twitter page
-    - icon: fa-twitter fa-lg
-      href: https://twitter.com/rabidbites
     - text: "Related Projects"
       icon: fa-globe fa-lg
       menu:
@@ -61,6 +54,5 @@ output:
   html_document:
     theme: united
     include:
-      in_header: header.html
       after_body: footer.html
     css: style.css
