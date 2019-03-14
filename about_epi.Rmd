@@ -29,6 +29,7 @@ Rabies incidence has been estimated through exhaustive contact tracing in Sereng
 [Click here](data_epi.html) to see our epidemiology data, including Rabies incidence over time, and maps of probable and lab-confirmed animal Rabies cases.  
   
 <center>
+<div class="clearfix">
 <div class="gallery_3">
   <img src="img/epi_1.png" />
   <div class="caption">FO Matiko carrying out Contact Tracing</div>
@@ -40,6 +41,7 @@ Rabies incidence has been estimated through exhaustive contact tracing in Sereng
 <div class="gallery_3">  
   <img src="img/epi_3.png" />
   <div class="caption">Tissue sample processing</div>
+</div>
 </div>
 </center>
 

@@ -31,6 +31,7 @@ Our team has supported the local government in Serengeti District in conducting 
 [Click here](data_vax.html) to view our data on dog vaccination campaigns, including maps of villages covered.  
 
 <center>
+<div class="clearfix">
 <div class="gallery_2">
   <img src="img/vacc_1.png" />
   <div class="caption">Central point vaccination station</div>
@@ -38,6 +39,7 @@ Our team has supported the local government in Serengeti District in conducting 
 <div class="gallery_2">
   <img src="img/vacc_2.jpg" />
   <div class="caption">Dog vaccination</div>
+</div>
 </div>
 </center>
 
