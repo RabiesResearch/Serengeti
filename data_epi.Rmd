@@ -49,7 +49,6 @@ y_axis_max_2012 <- find_y_max(human_dataframe=human_epi_month, animal_dataframe=
 ``` {r, echo=FALSE}
 epi_plot(human_dataframe=human_epi_month, animal_dataframe=animal_epi_month,
          district=script_district, start_date=start_date_1, start_month=start_month_1,
-         
          end_date=end_date, max_y=y_axis_max_2002)
 ```
 
