@@ -7,5 +7,5 @@ output: html_document
 script_district = "Serengeti"
 
 epi_map(animal_dataframe=animal_ct_proc, district=script_district, 
-        village_map=ser_vills, year=2017)
+        village_map=all_vills, year=2017)
 ```
