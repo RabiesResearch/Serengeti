@@ -69,10 +69,9 @@ The map below shows the location of probable and lab-confirmed animal rabies cas
 
 ```{r droplink, echo=FALSE}
 # Create table
-table_site <- c("html/ser_epi_map_2018.html", "html/ser_epi_map_2017.html",
-                "html/ser_epi_map_2016.html", "html/ser_epi_map_2015.html",
-                "html/ser_epi_map_2014.html")
-names(table_site) <- c("2018", "2017", "2016", "2015", "2014")
+table_site <- c("html/ser_epi_map_2019.html", "html/ser_epi_map_2018.html", "html/ser_epi_map_2017.html",
+                "html/ser_epi_map_2016.html", "html/ser_epi_map_2015.html", "html/ser_epi_map_2014.html")
+names(table_site) <- c("2019", "2018", "2017", "2016", "2015", "2014")
 
 bsselect(table_site, type = "iframe", frame_height=550, style="btn-primary", show_tick=TRUE, height=0)
 ```
