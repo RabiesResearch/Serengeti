@@ -6,6 +6,5 @@ output: html_document
 ``` {r echo=FALSE, warning=FALSE, message=FALSE, out.width='100%'}
 script_district = "Serengeti"
 
-epi_map(animal_dataframe=animal_ct_proc, district=script_district, 
-        village_map=all_vills, year=2016)
+epi_map(animal_dataframe=animal_ct_proc, district=script_district, year=2016)
 ```

@@ -5,5 +5,5 @@ output: html_document
 <p>
 ```{r, results='asis', echo=FALSE, warning=FALSE, out.width='100%'}
 #dog_vac_print_results(vacc_data, yr=2016)
-dog_vacc_map(vacc_data, yr=2016, ser_vills, PAs, regions)
+dog_vacc_map(vacc_data, yr=2016)
 ```
