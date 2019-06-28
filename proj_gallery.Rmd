@@ -160,6 +160,21 @@ title: ""
 <div class="column">
 <img src="img/gallery/TZimg_CT19.JPG" onclick="openModal2();currentSlide2(4)" class="demo2 hover-shadow" alt="">
 </div>
+<div class="column">
+<img src="img/gallery/TZimg_CT65.png" onclick="openModal2();currentSlide2(5)" class="demo2 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/TZimg_CT66.png" onclick="openModal2();currentSlide2(6)" class="demo2 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/TZimg_CT67.png" onclick="openModal2();currentSlide2(7)" class="demo2 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/TZimg_CT68.png" onclick="openModal2();currentSlide2(8)" class="demo2 hover-shadow" alt="">
+</div>
+<div class="column">
+<img src="img/gallery/TZimg_CT69.png" onclick="openModal2();currentSlide2(9)" class="demo2 hover-shadow" alt="">
+</div>
 
 </div> <!-- End Gallery -->
 
@@ -170,20 +185,40 @@ title: ""
 
 <!-- Images in Lightbox -->
 <div class="mySlides2">
-<div class="numbertext">1 / 4</div>
+<div class="numbertext">1 / 9</div>
 <img src="img/gallery/TZimg_CT7.jpg" class="modal-img-resp">
 </div>
 <div class="mySlides2">
-<div class="numbertext">2 / 4</div>
+<div class="numbertext">2 / 9</div>
 <img src="img/gallery/TZimg_CT10.jpg" class="modal-img-resp">
 </div>
 <div class="mySlides2">
-<div class="numbertext">3 / 4</div>
+<div class="numbertext">3 / 9</div>
 <img src="img/gallery/TZimg_CT44.JPG" class="modal-img-resp">
 </div>
 <div class="mySlides2">
-<div class="numbertext">4 / 4</div>
+<div class="numbertext">4 / 9</div>
 <img src="img/gallery/TZimg_CT19.JPG" class="modal-img-resp">
+</div>
+<div class="mySlides2">
+<div class="numbertext">5 / 9</div>
+<img src="img/gallery/TZimg_CT65.png" class="modal-img-resp">
+</div>
+<div class="mySlides2">
+<div class="numbertext">6 / 9</div>
+<img src="img/gallery/TZimg_CT66.png" class="modal-img-resp">
+</div>
+<div class="mySlides2">
+<div class="numbertext">7 / 9</div>
+<img src="img/gallery/TZimg_CT67.png" class="modal-img-resp">
+</div>
+<div class="mySlides2">
+<div class="numbertext">8 / 9</div>
+<img src="img/gallery/TZimg_CT68.png" class="modal-img-resp">
+</div>
+<div class="mySlides2">
+<div class="numbertext">9 / 9</div>
+<img src="img/gallery/TZimg_CT69.png" class="modal-img-resp">
 </div>
 
 <!-- Next/previous controls -->

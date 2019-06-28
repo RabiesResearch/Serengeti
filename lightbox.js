@@ -46,7 +46,7 @@ function showSlides1(n) {
 }
 
 // ----------------------------------------------------------------------------
-// LIGHTBBOX 2 - CONTACT TRACING (4 PHOTOS)
+// LIGHTBBOX 2 - CONTACT TRACING (9 PHOTOS)
 
 // Open the Modal
 function openModal2() {
@@ -74,7 +74,7 @@ function currentSlide2(n) {
 // Select slides
 function showSlides2(n) {
   var First_slide2 = 1;
-  var Last_slide2 = 4;
+  var Last_slide2 = 9;
   var i2;
   var slides2 = document.getElementsByClassName("mySlides2");
   var dots2 = document.getElementsByClassName("demo2");
