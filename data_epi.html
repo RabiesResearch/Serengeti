@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>data_epi.utf8</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,12 +22,21 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="site_libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
 <link href="site_libs/bootstrap-select-1.12.1/dist/css/bootstrap-select.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-select-1.12.1/dist/js/bootstrap-select.min.js"></script>
 <script src="site_libs/bsselect-binding-0.1.0/bsselect.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -73,6 +82,7 @@ h6 {
   text-align: left;
 }
 </style>
+
 
 <link rel="stylesheet" href="style.css" type="text/css" />
 
@@ -309,7 +319,7 @@ $(document).ready(function () {
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-bar-chart"></span>
+    <span class="fas fa-bar-chart"></span>
      
     Results
      
@@ -330,21 +340,21 @@ $(document).ready(function () {
 </li>
 <li>
   <a href="proj_team.html">
-    <span class="fa fa-users"></span>
+    <span class="fas fa-users"></span>
      
     Team
   </a>
 </li>
 <li>
   <a href="proj_gallery.html">
-    <span class="fa fa-camera"></span>
+    <span class="fas fa-camera"></span>
      
     Gallery
   </a>
 </li>
 <li class="dropdown">
   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-    <span class="fa fa-globe fa-lg"></span>
+    <span class="fas fa-globe fa-lg"></span>
      
     Related Projects
      
@@ -419,24 +429,25 @@ Rabies Incidence
 <p>The map below shows the location of probable and lab-confirmed animal rabies cases traced in Serengeti District over the last five years. This map excludes all bites where the rabies status is not suspect or cannot be determined; village centroids are used in the absence of coordinates. Select from the dropdown menu to view data from a specific year:</p>
 
 <html>
-<select id="Q7SiN4Xetk" class="selectpicker" data-dropdown-align-right="false" data-dropup-auto="true" data-header="false" data-live-search="false" data-live-search-style="contains" data-show-tick="true" data-width="false" data-size="auto" data-style="btn-primary"><option value="html/ser_epi_map_2020.html">2020</option>
+<select id="0aMII0KB55" class="selectpicker" data-dropdown-align-right="false" data-dropup-auto="true" data-header="false" data-live-search="false" data-live-search-style="contains" data-show-tick="true" data-width="false" data-size="auto" data-style="btn-primary"><option value="html/ser_epi_map_2021.html">2021</option>
+<option value="html/ser_epi_map_2020.html">2020</option>
 <option value="html/ser_epi_map_2019.html">2019</option>
 <option value="html/ser_epi_map_2018.html">2018</option>
 <option value="html/ser_epi_map_2017.html">2017</option>
 <option value="html/ser_epi_map_2016.html">2016</option>
 <option value="html/ser_epi_map_2015.html">2015</option>
 <option value="html/ser_epi_map_2014.html">2014</option></select>
-<iframe src="html/ser_epi_map_2020.html" frameborder="0" height="550" width="100%" id="c3KAWJn8MT"></iframe>
+<iframe src="html/ser_epi_map_2021.html" frameborder="0" height="550" width="100%" id="OZ0VeW9Mi7"></iframe>
 <script>$(document).ready(function(){
-                   $("#Q7SiN4Xetk").change(function(){
-                   $("#c3KAWJn8MT").attr("src",$(this).val());
+                   $("#0aMII0KB55").change(function(){
+                   $("#OZ0VeW9Mi7").attr("src",$(this).val());
 
                    });
 
     });</script>
 </html>
-<div id="htmlwidget-7f0bc233e225377a4589" style="width:672px;height:0px;" class="bsselect html-widget" width="672" height="0"></div>
-<script type="application/json" data-for="htmlwidget-7f0bc233e225377a4589">{"x":[],"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-918e7a867abcbc20cf2a" style="width:672px;height:0px;" class="bsselect html-widget" width="672" height="0"></div>
+<script type="application/json" data-for="htmlwidget-918e7a867abcbc20cf2a">{"x":[],"evals":[],"jsHooks":[]}</script>
 </div>
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
@@ -460,7 +471,7 @@ Rabies Incidence
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
