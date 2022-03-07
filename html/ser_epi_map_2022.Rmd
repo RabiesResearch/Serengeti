@@ -1,0 +1,10 @@
+---
+output: html_document
+---
+<!-- rmarkdown v1 -->
+<p>
+``` {r echo=FALSE, warning=FALSE, message=FALSE, out.width='100%'}
+script_district = "Serengeti"
+
+epi_map(animal_dataframe=animal_ct_proc, district=script_district, year=2022)
+```
